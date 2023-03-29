@@ -1,0 +1,12 @@
+E:\Project chấm công\BE\HGWork\HGWork.Repository\bin\Debug\net6.0\HGWork.Repository.deps.json
+E:\Project chấm công\BE\HGWork\HGWork.Repository\bin\Debug\net6.0\HGWork.Repository.dll
+E:\Project chấm công\BE\HGWork\HGWork.Repository\bin\Debug\net6.0\HGWork.Repository.pdb
+E:\Project chấm công\BE\HGWork\HGWork.Repository\obj\Debug\net6.0\HGWork.Repository.csproj.AssemblyReference.cache
+E:\Project chấm công\BE\HGWork\HGWork.Repository\obj\Debug\net6.0\HGWork.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project chấm công\BE\HGWork\HGWork.Repository\obj\Debug\net6.0\HGWork.Repository.AssemblyInfoInputs.cache
+E:\Project chấm công\BE\HGWork\HGWork.Repository\obj\Debug\net6.0\HGWork.Repository.AssemblyInfo.cs
+E:\Project chấm công\BE\HGWork\HGWork.Repository\obj\Debug\net6.0\HGWork.Repository.csproj.CoreCompileInputs.cache
+E:\Project chấm công\BE\HGWork\HGWork.Repository\obj\Debug\net6.0\HGWork.Repository.dll
+E:\Project chấm công\BE\HGWork\HGWork.Repository\obj\Debug\net6.0\refint\HGWork.Repository.dll
+E:\Project chấm công\BE\HGWork\HGWork.Repository\obj\Debug\net6.0\HGWork.Repository.pdb
+E:\Project chấm công\BE\HGWork\HGWork.Repository\obj\Debug\net6.0\ref\HGWork.Repository.dll

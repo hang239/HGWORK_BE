@@ -1,0 +1,14 @@
+E:\Project chấm công\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.deps.json
+E:\Project chấm công\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.dll
+E:\Project chấm công\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.pdb
+E:\Project chấm công\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.csproj.AssemblyReference.cache
+E:\Project chấm công\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project chấm công\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.AssemblyInfoInputs.cache
+E:\Project chấm công\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.AssemblyInfo.cs
+E:\Project chấm công\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.csproj.CoreCompileInputs.cache
+E:\Project chấm công\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.dll
+E:\Project chấm công\BE\HGWork\HGWork.Model\obj\Debug\net6.0\refint\HGWork.Model.dll
+E:\Project chấm công\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.pdb
+E:\Project chấm công\BE\HGWork\HGWork.Model\obj\Debug\net6.0\ref\HGWork.Model.dll
+E:\Project chấm công\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.runtimeconfig.json
+E:\Project chấm công\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.genruntimeconfig.cache

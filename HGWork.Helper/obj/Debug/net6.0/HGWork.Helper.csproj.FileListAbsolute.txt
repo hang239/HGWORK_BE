@@ -1,0 +1,12 @@
+E:\Project chấm công\BE\HGWork\HGWork.Helper\bin\Debug\net6.0\HGWork.Helper.deps.json
+E:\Project chấm công\BE\HGWork\HGWork.Helper\bin\Debug\net6.0\HGWork.Helper.dll
+E:\Project chấm công\BE\HGWork\HGWork.Helper\bin\Debug\net6.0\HGWork.Helper.pdb
+E:\Project chấm công\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.csproj.AssemblyReference.cache
+E:\Project chấm công\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project chấm công\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.AssemblyInfoInputs.cache
+E:\Project chấm công\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.AssemblyInfo.cs
+E:\Project chấm công\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.csproj.CoreCompileInputs.cache
+E:\Project chấm công\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.dll
+E:\Project chấm công\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\refint\HGWork.Helper.dll
+E:\Project chấm công\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.pdb
+E:\Project chấm công\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\ref\HGWork.Helper.dll

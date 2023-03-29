@@ -1,0 +1,58 @@
+2023-03-27T18:24:58.8590237+07:00  [INF] Now listening on: "https://localhost:7288" (d826f4b8)
+2023-03-27T18:24:58.8638876+07:00  [INF] Now listening on: "http://localhost:5288" (d826f4b8)
+2023-03-27T18:24:58.8758956+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-27T18:24:58.8774558+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-27T18:24:58.8790260+07:00  [INF] Content root path: "E:\Project chấm công\BE\HGWork\HGWork" (b5d60022)
+2023-03-27T18:25:00.8771890+07:00 0HMPEMNJ748BO:00000011 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - HGWork.Controllers.ProjectController.Index (HGWork). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-27T18:28:44.9225481+07:00  [INF] Now listening on: "https://localhost:7288" (d826f4b8)
+2023-03-27T18:28:44.9277315+07:00  [INF] Now listening on: "http://localhost:5288" (d826f4b8)
+2023-03-27T18:28:44.9406969+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-27T18:28:44.9427362+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-27T18:28:44.9441559+07:00  [INF] Content root path: "E:\Project chấm công\BE\HGWork\HGWork" (b5d60022)
+2023-03-27T18:52:52.6651891+07:00  [INF] Now listening on: "https://localhost:7288" (d826f4b8)
+2023-03-27T18:52:52.6700659+07:00  [INF] Now listening on: "http://localhost:5288" (d826f4b8)
+2023-03-27T18:52:52.6819455+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-27T18:52:52.6833906+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-27T18:52:52.6846248+07:00  [INF] Content root path: "E:\Project chấm công\BE\HGWork\HGWork" (b5d60022)
+2023-03-27T18:53:54.7632652+07:00 0HMPEN760UTH9:00000009 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-03-27T18:54:07.2093638+07:00 0HMPEN760UTH9:0000000B [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-03-27T18:54:08.5499007+07:00 0HMPEN760UTH9:0000000D [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-03-27T18:54:22.2094312+07:00 0HMPEN760UTH9:0000000F [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-03-27T18:54:25.5531873+07:00 0HMPEN760UTH9:0000000F [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-03-27T18:54:26.2920375+07:00 0HMPEN760UTH9:0000000F [INF] Executed DbCommand ("72"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedDate], [Email], [IsAdmin], [Name], [Phone], [Status])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [Id]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
