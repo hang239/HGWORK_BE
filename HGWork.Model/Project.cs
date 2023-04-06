@@ -18,6 +18,5 @@ namespace HGWork.Model
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public DateTime CreatedDate { get; set; }
-        public virtual ICollection<Task>? Tasks { get; set; }
     }
 }

@@ -1,4 +1,7 @@
-﻿using HGWork.Model;
+﻿using AutoMapper;
+using HGWork.DTO;
+using HGWork.Model;
+using HGWork.Module;
 using HGWork.Service;
 using HGWork.Service.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -23,6 +26,8 @@ namespace HGWork
 
             services.AddSession();
 
+            services.AddCors();
+
             services.AddControllers();
 
             //services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
@@ -33,6 +38,23 @@ namespace HGWork
             //       option.ExpireTimeSpan = TimeSpan.FromMinutes(10);
             //   });
 
+            // Dependency Injection
+            services.AddTransient<IUserService, UserService>();
+            services.AddTransient<IAccessService, AccessService>();
+            services.AddTransient<IProjectService, ProjectService>();
+            services.AddTransient<ITaskService, TaskService>();
+
+            // Registration Mapper 
+            // Auto Mapper Configurations
+            var mapperConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new MappingProfile());
+            });
+
+            IMapper mapper = mapperConfig.CreateMapper();
+            services.AddSingleton(mapper);
+
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "HG WORK API", Version = "v1" });
@@ -42,7 +64,7 @@ namespace HGWork
                 option.UseSqlServer(Configuration.GetConnectionString("DBConnection"));
             });
 
-            services.AddTransient<IUserService, UserService>();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -58,6 +80,13 @@ namespace HGWork
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.UseCors(options =>
+            {
+                options.AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader();
+            });
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

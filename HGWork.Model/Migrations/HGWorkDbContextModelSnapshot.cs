@@ -80,12 +80,7 @@ namespace HGWork.Model.Migrations
                     b.Property<int>("Status")
                         .HasColumnType("int");
 
-                    b.Property<int?>("UserId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Projects");
                 });
@@ -155,8 +150,6 @@ namespace HGWork.Model.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ProjectId");
-
                     b.ToTable("Tasks");
                 });
 
@@ -182,6 +175,10 @@ namespace HGWork.Model.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Phone")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -189,35 +186,13 @@ namespace HGWork.Model.Migrations
                     b.Property<int>("Status")
                         .HasColumnType("int");
 
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.ToTable("Users");
-                });
-
-            modelBuilder.Entity("HGWork.Model.Project", b =>
-                {
-                    b.HasOne("HGWork.Model.User", null)
-                        .WithMany("Projects")
-                        .HasForeignKey("UserId");
-                });
-
-            modelBuilder.Entity("HGWork.Model.Task", b =>
-                {
-                    b.HasOne("HGWork.Model.Project", null)
-                        .WithMany("Tasks")
-                        .HasForeignKey("ProjectId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("HGWork.Model.Project", b =>
-                {
-                    b.Navigation("Tasks");
-                });
-
-            modelBuilder.Entity("HGWork.Model.User", b =>
-                {
-                    b.Navigation("Projects");
                 });
 #pragma warning restore 612, 618
         }
