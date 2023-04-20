@@ -13,5 +13,6 @@ namespace HGWork.Service.Interfaces
         Task<ResponseBase<int>> Update(Model.Task request);
         Task<ResponseBase<Model.Task>> GetById(int id);
         Task<ResponseBase<List<Model.Task>>> GetAll();
+        Task<ResponseBase<List<Model.Task>>> FilterTasks(FilterTaskDto filter);
     }
 }

@@ -1,4 +1,5 @@
-﻿using HGWork.Model;
+﻿using HGWork.DTO;
+using HGWork.Model;
 using HGWork.Service.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,15 +16,22 @@ namespace HGWork.Controllers
             _userService = userService;
         }
 
-        //[HttpGet("getuser/{id}")]
-        //public async Task<User> GetUser([FromQuery] int id)
-        //{
-        //    return await _userService.GetUserById(id);
-        //}
+
+        [HttpGet("getall")]
+        public async Task<ResponseBase<List<User>>> GetAll()
+        {
+            return await _userService.GetAll();
+        }
+
+        [HttpGet("getuser/{id}")]
+        public async Task<ResponseBase<User>> GetUser(int id)
+        {
+            return await _userService.GetUserById(id);
+        }
 
 
-        [HttpPost]
-        public async Task<int> Create([FromBody] User user)
+        [HttpPost("create")]
+        public async Task<ResponseBase<int>> Create([FromBody] User user)
         {
             return await _userService.Create(user);
         }

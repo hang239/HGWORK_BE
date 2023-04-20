@@ -1,15 +1,3 @@
-E:\Project chấm công\HAGwork\BE\HGWork\HGWork.DTO\bin\Debug\net6.0\HGWork.DTO.deps.json
-E:\Project chấm công\HAGwork\BE\HGWork\HGWork.DTO\bin\Debug\net6.0\HGWork.DTO.dll
-E:\Project chấm công\HAGwork\BE\HGWork\HGWork.DTO\bin\Debug\net6.0\HGWork.DTO.pdb
-E:\Project chấm công\HAGwork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\HGWork.DTO.csproj.AssemblyReference.cache
-E:\Project chấm công\HAGwork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\HGWork.DTO.GeneratedMSBuildEditorConfig.editorconfig
-E:\Project chấm công\HAGwork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\HGWork.DTO.AssemblyInfoInputs.cache
-E:\Project chấm công\HAGwork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\HGWork.DTO.AssemblyInfo.cs
-E:\Project chấm công\HAGwork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\HGWork.DTO.csproj.CoreCompileInputs.cache
-E:\Project chấm công\HAGwork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\HGWork.DTO.dll
-E:\Project chấm công\HAGwork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\refint\HGWork.DTO.dll
-E:\Project chấm công\HAGwork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\HGWork.DTO.pdb
-E:\Project chấm công\HAGwork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\ref\HGWork.DTO.dll
 E:\HGWork\BE\HGWork\HGWork.DTO\bin\Debug\net6.0\HGWork.DTO.deps.json
 E:\HGWork\BE\HGWork\HGWork.DTO\bin\Debug\net6.0\HGWork.DTO.dll
 E:\HGWork\BE\HGWork\HGWork.DTO\bin\Debug\net6.0\HGWork.DTO.pdb
@@ -22,15 +10,3 @@ E:\HGWork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\HGWork.DTO.dll
 E:\HGWork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\refint\HGWork.DTO.dll
 E:\HGWork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\HGWork.DTO.pdb
 E:\HGWork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\ref\HGWork.DTO.dll
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.DTO\bin\Debug\net6.0\HGWork.DTO.deps.json
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.DTO\bin\Debug\net6.0\HGWork.DTO.dll
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.DTO\bin\Debug\net6.0\HGWork.DTO.pdb
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\HGWork.DTO.csproj.AssemblyReference.cache
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\HGWork.DTO.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\HGWork.DTO.AssemblyInfoInputs.cache
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\HGWork.DTO.AssemblyInfo.cs
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\HGWork.DTO.csproj.CoreCompileInputs.cache
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\HGWork.DTO.dll
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\refint\HGWork.DTO.dll
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\HGWork.DTO.pdb
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.DTO\obj\Debug\net6.0\ref\HGWork.DTO.dll

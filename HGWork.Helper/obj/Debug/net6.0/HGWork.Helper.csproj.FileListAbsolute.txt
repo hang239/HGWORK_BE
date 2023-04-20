@@ -22,15 +22,15 @@ E:\Project chấm công\HAGwork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.
 E:\Project chấm công\HAGwork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\refint\HGWork.Helper.dll
 E:\Project chấm công\HAGwork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.pdb
 E:\Project chấm công\HAGwork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\ref\HGWork.Helper.dll
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Helper\bin\Debug\net6.0\HGWork.Helper.deps.json
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Helper\bin\Debug\net6.0\HGWork.Helper.dll
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Helper\bin\Debug\net6.0\HGWork.Helper.pdb
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.csproj.AssemblyReference.cache
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.AssemblyInfoInputs.cache
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.AssemblyInfo.cs
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.csproj.CoreCompileInputs.cache
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.dll
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\refint\HGWork.Helper.dll
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.pdb
-C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\ref\HGWork.Helper.dll
+E:\HGWork\BE\HGWork\HGWork.Helper\bin\Debug\net6.0\HGWork.Helper.deps.json
+E:\HGWork\BE\HGWork\HGWork.Helper\bin\Debug\net6.0\HGWork.Helper.dll
+E:\HGWork\BE\HGWork\HGWork.Helper\bin\Debug\net6.0\HGWork.Helper.pdb
+E:\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.csproj.AssemblyReference.cache
+E:\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.GeneratedMSBuildEditorConfig.editorconfig
+E:\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.AssemblyInfoInputs.cache
+E:\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.AssemblyInfo.cs
+E:\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.csproj.CoreCompileInputs.cache
+E:\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.dll
+E:\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\refint\HGWork.Helper.dll
+E:\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.pdb
+E:\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\ref\HGWork.Helper.dll

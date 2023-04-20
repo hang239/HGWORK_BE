@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HGWork.DTO\HGWork.DTO.csproj" />
+    <ProjectReference Include="..\HGWork.Helper\HGWork.Helper.csproj" />
     <ProjectReference Include="..\HGWork.Model\HGWork.Model.csproj" />
   </ItemGroup>
 

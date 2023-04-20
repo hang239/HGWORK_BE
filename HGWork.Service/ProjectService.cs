@@ -159,7 +159,15 @@ namespace HGWork.Service
 
         public async Task<ResponseBase<List<Model.Task>>> GetTasks(int id)
         {
-            var tasks = await _context.Tasks.Where(x => x.ProjectId == id).ToListAsync();
+            var tasks = new List<Model.Task>();
+            if (id > 0)
+            {
+                tasks = await _context.Tasks.Where(x => x.ProjectId == id).ToListAsync();
+            }
+            else
+            {
+                tasks = await _context.Tasks.ToListAsync();
+            }
 
             return new ResponseBase<List<Model.Task>>()
             {

@@ -1,0 +1,308 @@
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\appsettings.Development.json
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\appsettings.json
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.exe
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.deps.json
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.runtimeconfig.json
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.pdb
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Humanizer.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Extensions.Logging.File.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Sinks.Async.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Sinks.File.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Sinks.RollingFile.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Model.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Model.pdb
+E:\Project chấm công\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.csproj.AssemblyReference.cache
+E:\Project chấm công\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project chấm công\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.AssemblyInfoInputs.cache
+E:\Project chấm công\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.AssemblyInfo.cs
+E:\Project chấm công\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.csproj.CoreCompileInputs.cache
+E:\Project chấm công\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.MvcApplicationPartsAssemblyInfo.cs
+E:\Project chấm công\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.MvcApplicationPartsAssemblyInfo.cache
+E:\Project chấm công\BE\HGWork\HGWork\obj\Debug\net6.0\staticwebassets.build.json
+E:\Project chấm công\BE\HGWork\HGWork\obj\Debug\net6.0\staticwebassets.development.json
+E:\Project chấm công\BE\HGWork\HGWork\obj\Debug\net6.0\scopedcss\bundle\HGWork.styles.css
+E:\Project chấm công\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.csproj.CopyComplete
+E:\Project chấm công\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.dll
+E:\Project chấm công\BE\HGWork\HGWork\obj\Debug\net6.0\refint\HGWork.dll
+E:\Project chấm công\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.pdb
+E:\Project chấm công\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.genruntimeconfig.cache
+E:\Project chấm công\BE\HGWork\HGWork\obj\Debug\net6.0\ref\HGWork.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Service.dll
+E:\Project chấm công\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Service.pdb
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\appsettings.Development.json
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\appsettings.json
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.exe
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.deps.json
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.runtimeconfig.json
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.pdb
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Humanizer.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Extensions.Logging.File.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Sinks.Async.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Sinks.File.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Sinks.RollingFile.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.DTO.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Model.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Service.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Model.pdb
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Service.pdb
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.DTO.pdb
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.csproj.AssemblyReference.cache
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.AssemblyInfoInputs.cache
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.AssemblyInfo.cs
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.csproj.CoreCompileInputs.cache
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.MvcApplicationPartsAssemblyInfo.cs
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.MvcApplicationPartsAssemblyInfo.cache
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\obj\Debug\net6.0\staticwebassets.build.json
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\obj\Debug\net6.0\staticwebassets.development.json
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\obj\Debug\net6.0\scopedcss\bundle\HGWork.styles.css
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.csproj.CopyComplete
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\obj\Debug\net6.0\refint\HGWork.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.pdb
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.genruntimeconfig.cache
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\obj\Debug\net6.0\ref\HGWork.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\AutoMapper.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Module.dll
+E:\Project chấm công\HAGwork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Module.pdb
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\appsettings.Development.json
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\appsettings.json
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.exe
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.deps.json
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.runtimeconfig.json
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.pdb
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\AutoMapper.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Humanizer.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Extensions.Logging.File.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Sinks.Async.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Sinks.File.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Sinks.RollingFile.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.DTO.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Model.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Module.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Service.dll
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Model.pdb
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Module.pdb
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Service.pdb
+E:\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.DTO.pdb
+E:\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.csproj.AssemblyReference.cache
+E:\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.GeneratedMSBuildEditorConfig.editorconfig
+E:\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.AssemblyInfoInputs.cache
+E:\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.AssemblyInfo.cs
+E:\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.csproj.CoreCompileInputs.cache
+E:\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.MvcApplicationPartsAssemblyInfo.cs
+E:\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.MvcApplicationPartsAssemblyInfo.cache
+E:\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\staticwebassets.build.json
+E:\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\staticwebassets.development.json
+E:\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\scopedcss\bundle\HGWork.styles.css
+E:\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.csproj.CopyComplete
+E:\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.dll
+E:\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\refint\HGWork.dll
+E:\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.pdb
+E:\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.genruntimeconfig.cache
+E:\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\ref\HGWork.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\appsettings.json
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.exe
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.deps.json
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.runtimeconfig.json
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.pdb
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Humanizer.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Extensions.Logging.File.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Sinks.Async.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Serilog.Sinks.RollingFile.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.DTO.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Model.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Module.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Service.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Model.pdb
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Module.pdb
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.Service.pdb
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\bin\Debug\net6.0\HGWork.DTO.pdb
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\staticwebassets\msbuild.HGWork.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\staticwebassets\msbuild.build.HGWork.props
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.HGWork.props
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.HGWork.props
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\scopedcss\bundle\HGWork.styles.css
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\refint\HGWork.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.pdb
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\HGWork.genruntimeconfig.cache
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork\obj\Debug\net6.0\ref\HGWork.dll

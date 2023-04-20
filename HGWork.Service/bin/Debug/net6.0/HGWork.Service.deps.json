@@ -10,6 +10,7 @@
         "dependencies": {
           "AutoMapper": "12.0.1",
           "HGWork.DTO": "1.0.0",
+          "HGWork.Helper": "1.0.0",
           "HGWork.Model": "1.0.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0"
         },
@@ -499,6 +500,11 @@
           "HGWork.DTO.dll": {}
         }
       },
+      "HGWork.Helper/1.0.0": {
+        "runtime": {
+          "HGWork.Helper.dll": {}
+        }
+      },
       "HGWork.Model/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.9",
@@ -825,6 +831,11 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "HGWork.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HGWork.Helper/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -496,36 +496,3 @@ System.Security.Cryptography.CryptographicException: The payload was invalid. Fo
 2023-04-06T01:57:17.1147821+07:00 0HMPLVB2RDPS7:00000002 [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
 ""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
 FROM [Projects] AS [p]" (0723d8ff)
-2023-04-06T22:29:27.1924006+07:00  [INF] Now listening on: "https://localhost:7288" (d826f4b8)
-2023-04-06T22:29:27.2039588+07:00  [INF] Now listening on: "http://localhost:5288" (d826f4b8)
-2023-04-06T22:29:27.2241266+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
-2023-04-06T22:29:27.2270071+07:00  [INF] Hosting environment: "Development" (c3307c92)
-2023-04-06T22:29:27.2314515+07:00  [INF] Content root path: "C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork" (b5d60022)
-2023-04-06T22:56:06.5717219+07:00 0HMPMMEQMCOU8:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
-2023-04-06T22:56:11.3626540+07:00 0HMPMMEQMCOU8:00000002 [INF] Executed DbCommand ("272"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
-""SET NOCOUNT ON;
-INSERT INTO [Projects] ([Code], [CreatedDate], [Description], [EndDate], [Name], [StartDate], [Status])
-VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
-SELECT [Id]
-FROM [Projects]
-WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
-2023-04-06T22:56:12.0693197+07:00 0HMPMMEQMCOU9:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
-2023-04-06T22:56:13.0003246+07:00 0HMPMMEQMCOU9:00000002 [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
-""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
-FROM [Projects] AS [p]" (0723d8ff)
-2023-04-06T22:57:19.3708575+07:00 0HMPMMEQMCOUA:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
-2023-04-06T22:57:19.4053460+07:00 0HMPMMEQMCOUA:00000002 [INF] Executed DbCommand ("13"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
-""SET NOCOUNT ON;
-INSERT INTO [Projects] ([Code], [CreatedDate], [Description], [EndDate], [Name], [StartDate], [Status])
-VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
-SELECT [Id]
-FROM [Projects]
-WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
-2023-04-06T22:57:19.6731401+07:00 0HMPMMEQMCOUB:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
-2023-04-06T22:57:19.6838054+07:00 0HMPMMEQMCOUB:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
-""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
-FROM [Projects] AS [p]" (0723d8ff)
-2023-04-06T23:02:34.7751765+07:00 0HMPMMEQMCOUC:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
-2023-04-06T23:02:34.9014060+07:00 0HMPMMEQMCOUC:00000002 [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
-""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
-FROM [Projects] AS [p]" (0723d8ff)

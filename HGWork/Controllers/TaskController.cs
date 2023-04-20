@@ -43,5 +43,12 @@ namespace HGWork.Controllers
             var res = await _taskService.Update(request);
             return res;
         }
+
+        [HttpPost("filter")]
+        public async Task<ResponseBase<List<Model.Task>>> Filter([FromBody] FilterTaskDto request)
+        {
+            var res = await _taskService.FilterTasks(request);
+            return res;
+        }
     }
 }
