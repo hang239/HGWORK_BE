@@ -34,3 +34,39 @@ E:\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.dll
 E:\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\refint\HGWork.Helper.dll
 E:\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.pdb
 E:\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\ref\HGWork.Helper.dll
+C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Helper\bin\Debug\net6.0\HGWork.Helper.deps.json
+C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Helper\bin\Debug\net6.0\HGWork.Helper.dll
+C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Helper\bin\Debug\net6.0\HGWork.Helper.pdb
+C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.dll
+C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\refint\HGWork.Helper.dll
+C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.pdb
+C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\ref\HGWork.Helper.dll
+C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Helper\bin\Debug\net6.0\HGWork.Helper.deps.json
+C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Helper\bin\Debug\net6.0\HGWork.Helper.dll
+C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Helper\bin\Debug\net6.0\HGWork.Helper.pdb
+C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.dll
+C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\refint\HGWork.Helper.dll
+C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.pdb
+C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\ref\HGWork.Helper.dll
+C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Helper\bin\Debug\net6.0\HGWork.Helper.deps.json
+C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Helper\bin\Debug\net6.0\HGWork.Helper.dll
+C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Helper\bin\Debug\net6.0\HGWork.Helper.pdb
+C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.dll
+C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\refint\HGWork.Helper.dll
+C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\HGWork.Helper.pdb
+C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Helper\obj\Debug\net6.0\ref\HGWork.Helper.dll

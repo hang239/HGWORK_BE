@@ -29,6 +29,12 @@ namespace HGWork.Controllers
             return await _userService.GetUserById(id);
         }
 
+        [HttpGet("gettaskbyuser")]
+        public async Task<ResponseBase<List<TaskView>>> GetTaskByUser([FromQuery] int userId, [FromQuery] int status)
+        {
+            return await _userService.GetTaskByUser(userId, status);
+        }
+
 
         [HttpPost("create")]
         public async Task<ResponseBase<int>> Create([FromBody] User user)

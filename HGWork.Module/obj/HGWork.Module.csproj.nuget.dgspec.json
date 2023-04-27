@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\HGWork\\BE\\HGWork\\HGWork.Module\\HGWork.Module.csproj": {}
+    "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.Module\\HGWork.Module.csproj": {}
   },
   "projects": {
-    "E:\\HGWork\\BE\\HGWork\\HGWork.DTO\\HGWork.DTO.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.DTO\\HGWork.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\HGWork\\BE\\HGWork\\HGWork.DTO\\HGWork.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.DTO\\HGWork.DTO.csproj",
         "projectName": "HGWork.DTO",
-        "projectPath": "E:\\HGWork\\BE\\HGWork\\HGWork.DTO\\HGWork.DTO.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "E:\\HGWork\\BE\\HGWork\\HGWork.DTO\\obj\\",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.DTO\\HGWork.DTO.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.DTO\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,25 +55,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\HGWork\\BE\\HGWork\\HGWork.Model\\HGWork.Model.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.Model\\HGWork.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\HGWork\\BE\\HGWork\\HGWork.Model\\HGWork.Model.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.Model\\HGWork.Model.csproj",
         "projectName": "HGWork.Model",
-        "projectPath": "E:\\HGWork\\BE\\HGWork\\HGWork.Model\\HGWork.Model.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "E:\\HGWork\\BE\\HGWork\\HGWork.Model\\obj\\",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.Model\\HGWork.Model.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.Model\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -129,7 +122,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -138,25 +132,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\HGWork\\BE\\HGWork\\HGWork.Module\\HGWork.Module.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.Module\\HGWork.Module.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\HGWork\\BE\\HGWork\\HGWork.Module\\HGWork.Module.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.Module\\HGWork.Module.csproj",
         "projectName": "HGWork.Module",
-        "projectPath": "E:\\HGWork\\BE\\HGWork\\HGWork.Module\\HGWork.Module.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "E:\\HGWork\\BE\\HGWork\\HGWork.Module\\obj\\",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.Module\\HGWork.Module.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.Module\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -170,11 +160,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\HGWork\\BE\\HGWork\\HGWork.DTO\\HGWork.DTO.csproj": {
-                "projectPath": "E:\\HGWork\\BE\\HGWork\\HGWork.DTO\\HGWork.DTO.csproj"
+              "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.DTO\\HGWork.DTO.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.DTO\\HGWork.DTO.csproj"
               },
-              "E:\\HGWork\\BE\\HGWork\\HGWork.Model\\HGWork.Model.csproj": {
-                "projectPath": "E:\\HGWork\\BE\\HGWork\\HGWork.Model\\HGWork.Model.csproj"
+              "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.Model\\HGWork.Model.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.Model\\HGWork.Model.csproj"
               }
             }
           }
@@ -200,7 +190,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -209,7 +200,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

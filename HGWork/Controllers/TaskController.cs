@@ -17,14 +17,14 @@ namespace HGWork.Controllers
         }
 
         [HttpGet("getall")]
-        public async Task<ResponseBase<List<Model.Task>>> Get()
+        public async Task<ResponseBase<List<TaskView>>> Get()
         {
             var res = await _taskService.GetAll();
             return res;
         }
 
         [HttpGet("detail/{id}")]
-        public async Task<ResponseBase<Model.Task>> Detail([FromQuery] int id)
+        public async Task<ResponseBase<Model.Task>> Detail(int id)
         {
             var res = await _taskService.GetById(id);
             return res;
@@ -45,7 +45,7 @@ namespace HGWork.Controllers
         }
 
         [HttpPost("filter")]
-        public async Task<ResponseBase<List<Model.Task>>> Filter([FromBody] FilterTaskDto request)
+        public async Task<ResponseBase<List<TaskView>>> Filter([FromBody] FilterTaskDto request)
         {
             var res = await _taskService.FilterTasks(request);
             return res;

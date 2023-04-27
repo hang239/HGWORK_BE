@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HGWork.Service", "HGWork.Se
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HGWork.Helper", "HGWork.Helper\HGWork.Helper.csproj", "{40D5DC35-D1A8-456D-A143-E3DC17413FDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HGWork.DTO", "HGWork.DTO\HGWork.DTO.csproj", "{590C9F88-E111-484E-AF0B-873A16C3B5BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HGWork.DTO", "HGWork.DTO\HGWork.DTO.csproj", "{590C9F88-E111-484E-AF0B-873A16C3B5BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HGWork.Module", "HGWork.Module\HGWork.Module.csproj", "{8D6F44B0-88CB-4DB5-9CDE-533CFD92871D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HGWork.Module", "HGWork.Module\HGWork.Module.csproj", "{8D6F44B0-88CB-4DB5-9CDE-533CFD92871D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailWorker", "EmailWorker\EmailWorker.csproj", "{F67FED25-C41D-4BA6-A847-7A183D2925FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{8D6F44B0-88CB-4DB5-9CDE-533CFD92871D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D6F44B0-88CB-4DB5-9CDE-533CFD92871D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D6F44B0-88CB-4DB5-9CDE-533CFD92871D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67FED25-C41D-4BA6-A847-7A183D2925FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67FED25-C41D-4BA6-A847-7A183D2925FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67FED25-C41D-4BA6-A847-7A183D2925FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67FED25-C41D-4BA6-A847-7A183D2925FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

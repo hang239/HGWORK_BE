@@ -5,20 +5,23 @@ using HGWork.Service.Interfaces;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using HGWork.Helper.Email;
+using HGWork.Helper.Enums;
 
 namespace HGWork.Service
 {
     public class TaskService : ITaskService
     {
         private readonly HGWorkDbContext _context;
+        private readonly IEmailService _emailService;
         private readonly ILogger _logger;
         private readonly IMapper _mapper;
 
-        public TaskService(HGWorkDbContext context, ILogger<UserService> logger, IMapper mapper)
+        public TaskService(HGWorkDbContext context, ILogger<UserService> logger, IMapper mapper, IEmailService emailService)
         {
             _context = context;
             _logger = logger;
             _mapper = mapper;
+            _emailService = emailService;
         }
 
         public async Task<ResponseBase<int>> Create(Model.Task request)
@@ -32,8 +35,24 @@ namespace HGWork.Service
 
                     var user = _context.Users.FirstOrDefault(x => x.Id == request.UserId);
                     // send mail
-
-                    this.SendMail(request.Name, "http:\\localhost:8080", request.Description, user.Email);
+                    string status = TaskStatusEnum.Backlog.ToString();
+                    if (request.Status == 1)
+                    {
+                        status = TaskStatusEnum.Doing.ToString();
+                    }
+                    if (request.Status == 2)
+                    {
+                        status = TaskStatusEnum.Done.ToString();
+                    }
+                    if (request.Status == 3)
+                    {
+                        status = TaskStatusEnum.Pending.ToString();
+                    }
+                    if (request.Status == 4)
+                    {
+                        status = TaskStatusEnum.Canceled.ToString();
+                    }
+                    this.SendMail(request.Name, status, "http://localhost:8080/#/updatetask/" + request.Id.ToString(), request.StartDate.ToString("MM/dd/yyyy"), request.EndDate.ToString("MM/dd/yyyy"), user.Email);
 
                     return new ResponseBase<int>
                     {
@@ -66,19 +85,26 @@ namespace HGWork.Service
             {
                 if (request != null)
                 {
-                    var project = _context.Projects.FirstOrDefault(x => x.Id == request.Id);
-                    if (project == null)
-                    {
-                        return new ResponseBase<int>
-                        {
-                            StatusCode = 400,
-                            Data = 0,
-                            Message = "Không tìm thấy dữ liệu"
-                        };
-                    }
                     var user = _context.Users.FirstOrDefault(x => x.Id == request.UserId);
                     // send mail
-                    this.SendMail(request.Name, "http:\\localhost:8080", request.Description, user.Email);
+                    string status = TaskStatusEnum.Backlog.ToString();
+                    if (request.Status == 1)
+                    {
+                        status = TaskStatusEnum.Doing.ToString();
+                    }
+                    if (request.Status == 2)
+                    {
+                        status = TaskStatusEnum.Done.ToString();
+                    }
+                    if (request.Status == 3)
+                    {
+                        status = TaskStatusEnum.Pending.ToString();
+                    }
+                    if (request.Status == 4)
+                    {
+                        status = TaskStatusEnum.Canceled.ToString();
+                    }
+                    this.SendMail(request.Name, status, "http://localhost:8080/#/updatetask/" + request.Id.ToString(), request.StartDate.ToString("MM/dd/yyyy"), request.EndDate.ToString("MM/dd/yyyy"), user.Email);
 
                     _context.Tasks.Update(request);
                     await _context.SaveChangesAsync();
@@ -133,23 +159,31 @@ namespace HGWork.Service
 
         }
 
-        public async Task<ResponseBase<List<Model.Task>>> GetAll()
+        public async Task<ResponseBase<List<TaskView>>> GetAll()
         {
             try
             {
                 var tasks = await _context.Tasks.ToListAsync();
+                var res = tasks.Select(x => new TaskView()
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Code = x.Code,
+                    Description = x.Description,
+                    StartDate = x.StartDate.ToString("MM/dd/yyyy"),
+                    EndDate = x.EndDate.ToString("MM/dd/yyyy")
+                }).ToList();
 
-
-                return new ResponseBase<List<Model.Task>>
+                return new ResponseBase<List<TaskView>>
                 {
                     StatusCode = 200,
-                    Data = tasks,
+                    Data = res,
                     Message = "Thành công"
                 };
             }
             catch (Exception ex)
             {
-                return new ResponseBase<List<Model.Task>>
+                return new ResponseBase<List<TaskView>>
                 {
                     StatusCode = 400,
                     Data = null,
@@ -159,7 +193,7 @@ namespace HGWork.Service
 
         }
 
-        public async Task<ResponseBase<List<Model.Task>>> FilterTasks(FilterTaskDto filter)
+        public async Task<ResponseBase<List<TaskView>>> FilterTasks(FilterTaskDto filter)
         {
             var tasks = new List<Model.Task>();
             if (filter.ProjectId > 0)
@@ -179,10 +213,20 @@ namespace HGWork.Service
                 tasks = tasks.Where(x => x.StartDate <= filter.StartDate && x.EndDate >= filter.EndDate).ToList();
             }
 
-            return new ResponseBase<List<Model.Task>> { StatusCode = 200, Data = tasks , Message = "Filter success"};
+            var res = tasks.Select(x => new TaskView()
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Code = x.Code,
+                    Description = x.Description,
+                    StartDate = x.StartDate.ToString("MM/dd/yyyy"),
+                    EndDate = x.EndDate.ToString("MM/dd/yyyy")
+                }).ToList();
+
+            return new ResponseBase<List<TaskView>> { StatusCode = 200, Data = res, Message = "Filter success"};
         }
 
-        public void SendMail(string name, string link, string des, string mailTo)
+        public void SendMail(string name, string status, string startDate, string endDate, string link, string mailTo)
         {
             string contentEmail = string.Format(@"
             <p>Thông báo cập nhật công việc từ HGWork</p>
@@ -191,13 +235,34 @@ namespace HGWork.Service
                 <ul>
                     <li> Task: <b>{0}</b></li>
                     <li> Link: <b>{1}</b></li>
-                    <li> Ngày: <b>{2}</b></li>
+                    <li> Ngày bắt đầu: <b>{2}</b></li>
+                    <li> Ngày kết thúc: <b>{3}</b></li>
+                    <li> Trạng thái: <b>{4}</b></li>
+                    <li> Ngày cập nhật: <b>{5}</b></li>
                 </ul>
             <p>Chúng tôi gửi thông báo này tới bạn để xác nhận các thông tin.</p>
             <p>Cảm ơn bạn đã tin dùng hệ thống của chúng tôi!</p>
-            <p><i>Trung thâm hỗ trợ 24/7 HGWork</i></p>
-            ", name, link, DateTime.Now);
-            new System.Threading.Tasks.Task(() => { SMTPHelper.SendMail(mailTo, contentEmail, "Thông báo cập nhật công việc"); }).Start();
+            ", name, link, startDate, endDate, status, DateTime.Now);
+
+            var email = new Email()
+            {
+                From = "",
+                EmailContent = contentEmail,
+                Subject = "Thông báo cập nhật công việc",
+                To = mailTo
+            };
+            
+            _ = _emailService.SendMail(email);
+        }
+
+        public async Task<List<Model.Task>> GetTaskEndDate()
+        {
+            var tasks = new List<Model.Task>();
+            var now = DateTime.Now.AddHours(-1);
+
+            tasks = tasks.Where(x => x.EndDate.ToString("MM/dd/yyyy").Equals(now.ToString("MM/dd/yyyy"))).ToList();
+
+            return tasks;
         }
     }
 }

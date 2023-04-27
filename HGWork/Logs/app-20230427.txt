@@ -1,0 +1,591 @@
+2023-04-27T08:16:27.0511788+07:00  [INF] Now listening on: "https://localhost:7288" (d826f4b8)
+2023-04-27T08:16:27.0652262+07:00  [INF] Now listening on: "http://localhost:5288" (d826f4b8)
+2023-04-27T08:16:27.1066283+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-27T08:16:27.1123672+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-27T08:16:27.1161981+07:00  [INF] Content root path: "C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork" (b5d60022)
+2023-04-27T08:23:54.4990321+07:00  [INF] Now listening on: "https://localhost:7288" (d826f4b8)
+2023-04-27T08:23:54.5353699+07:00  [INF] Now listening on: "http://localhost:5288" (d826f4b8)
+2023-04-27T08:23:54.6250366+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-27T08:23:54.6480457+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-27T08:23:54.6571291+07:00  [INF] Content root path: "C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork" (b5d60022)
+2023-04-27T08:50:53.8189550+07:00  [INF] Now listening on: "https://localhost:7288" (d826f4b8)
+2023-04-27T08:50:53.8323100+07:00  [INF] Now listening on: "http://localhost:5288" (d826f4b8)
+2023-04-27T08:50:53.8593884+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-27T08:50:53.8620892+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-27T08:50:53.8652005+07:00  [INF] Content root path: "C:\Users\LENOVO\Desktop\Hang\HGWork\BE\HGWork\HGWork" (b5d60022)
+2023-04-27T08:52:24.9304608+07:00 0HMQ6O7B48LN1:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T08:52:27.3956512+07:00 0HMQ6O7B48LN1:00000002 [INF] Executed DbCommand ("191"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T08:52:27.7845601+07:00 0HMQ6O7B48LN1:00000002 [INF] Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T09:03:50.6847530+07:00 0HMQ6O7B48LN3:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:03:51.9207345+07:00 0HMQ6O7B48LN3:00000002 [INF] Executed DbCommand ("131"ms) [Parameters=["@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+WHERE ([u].[UserName] = @__userName_0) AND ([u].[Password] = @__password_1)" (0723d8ff)
+2023-04-27T09:03:52.0053196+07:00 0HMQ6O7B48LN4:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:03:52.0266076+07:00 0HMQ6O7B48LN4:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=["@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+WHERE ([u].[UserName] = @__userName_0) AND ([u].[Password] = @__password_1)" (0723d8ff)
+2023-04-27T09:03:52.4469011+07:00 0HMQ6O7B48LN5:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:03:52.4696835+07:00 0HMQ6O7B48LN5:00000002 [INF] Executed DbCommand ("12"ms) [Parameters=["@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+WHERE ([u].[UserName] = @__userName_0) AND ([u].[Password] = @__password_1)" (0723d8ff)
+2023-04-27T09:09:14.8158032+07:00 0HMQ6O7B48LN7:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:09:14.8259009+07:00 0HMQ6O7B48LN7:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=["@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+WHERE ([u].[UserName] = @__userName_0) AND ([u].[Password] = @__password_1)" (0723d8ff)
+2023-04-27T09:09:23.1454097+07:00 0HMQ6O7B48LN8:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:09:23.2725938+07:00 0HMQ6O7B48LN8:00000002 [INF] Executed DbCommand ("32"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[UserId] = @__userId_0" (0723d8ff)
+2023-04-27T09:10:07.1488509+07:00 0HMQ6O7B48LN9:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:10:07.1573398+07:00 0HMQ6O7B48LN9:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[UserId] = @__userId_0" (0723d8ff)
+2023-04-27T09:10:55.2180446+07:00 0HMQ6O7B48LNB:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:10:55.2283791+07:00 0HMQ6O7B48LNB:00000002 [INF] Executed DbCommand ("6"ms) [Parameters=["@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+WHERE ([u].[UserName] = @__userName_0) AND ([u].[Password] = @__password_1)" (0723d8ff)
+2023-04-27T09:10:55.4619706+07:00 0HMQ6O7B48LNC:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:10:55.4771462+07:00 0HMQ6O7B48LNC:00000002 [INF] Executed DbCommand ("7"ms) [Parameters=["@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+WHERE ([u].[UserName] = @__userName_0) AND ([u].[Password] = @__password_1)" (0723d8ff)
+2023-04-27T09:10:59.2686428+07:00 0HMQ6O7B48LND:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:10:59.2904309+07:00 0HMQ6O7B48LND:00000002 [INF] Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T09:10:59.3026176+07:00 0HMQ6O7B48LND:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T09:11:42.6690072+07:00 0HMQ6O7B48LNE:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:11:42.6770285+07:00 0HMQ6O7B48LNE:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+WHERE ([u].[UserName] = @__userName_0) AND ([u].[Password] = @__password_1)" (0723d8ff)
+2023-04-27T09:11:43.4113242+07:00 0HMQ6O7B48LNF:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:11:43.4183136+07:00 0HMQ6O7B48LNF:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T09:11:47.4414244+07:00 0HMQ6O7B48LNG:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:11:47.4469508+07:00 0HMQ6O7B48LNG:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+WHERE ([u].[UserName] = @__userName_0) AND ([u].[Password] = @__password_1)" (0723d8ff)
+2023-04-27T09:11:48.3081551+07:00 0HMQ6O7B48LNI:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:11:48.3171674+07:00 0HMQ6O7B48LNI:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T09:15:23.7944951+07:00 0HMQ6O7B48LNJ:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:15:23.8103705+07:00 0HMQ6O7B48LNJ:00000002 [INF] Executed DbCommand ("7"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[UserId] = @__userId_0" (0723d8ff)
+2023-04-27T09:16:01.8831291+07:00 0HMQ6O7B48LNK:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:16:01.9449749+07:00 0HMQ6O7B48LNK:00000002 [INF] Executed DbCommand ("16"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESC" (0723d8ff)
+2023-04-27T09:16:21.8778153+07:00 0HMQ6O7B48LNL:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:16:21.8837912+07:00 0HMQ6O7B48LNL:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+WHERE ([u].[UserName] = @__userName_0) AND ([u].[Password] = @__password_1)" (0723d8ff)
+2023-04-27T09:16:23.4208192+07:00 0HMQ6O7B48LNN:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:16:23.4286058+07:00 0HMQ6O7B48LNN:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T09:16:31.3389408+07:00 0HMQ6O7B48LNO:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:16:31.3528834+07:00 0HMQ6O7B48LNO:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__id_0" (0723d8ff)
+2023-04-27T09:16:34.9934210+07:00 0HMQ6O7B48LNP:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:16:35.0043500+07:00 0HMQ6O7B48LNP:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T09:16:38.8410464+07:00 0HMQ6O7B48LNQ:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:16:38.8517828+07:00 0HMQ6O7B48LNQ:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__id_0" (0723d8ff)
+2023-04-27T09:16:42.7289889+07:00 0HMQ6O7B48LNR:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:16:42.7389550+07:00 0HMQ6O7B48LNR:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T09:16:46.4365518+07:00 0HMQ6O7B48LNS:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:16:46.4427541+07:00 0HMQ6O7B48LNS:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__id_0" (0723d8ff)
+2023-04-27T09:16:48.0953617+07:00 0HMQ6O7B48LNT:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:16:48.0986504+07:00 0HMQ6O7B48LNU:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:16:48.1028415+07:00 0HMQ6O7B48LNT:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T09:16:48.1217275+07:00 0HMQ6O7B48LNU:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESC" (0723d8ff)
+2023-04-27T09:16:48.1537119+07:00 0HMQ6O7B48LNV:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:16:48.1642156+07:00 0HMQ6O7B48LNV:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[Id] = @__id_0" (0723d8ff)
+2023-04-27T09:16:53.2029470+07:00 0HMQ6O7B48LO0:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:16:53.2137222+07:00 0HMQ6O7B48LO0:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T09:16:55.4696814+07:00 0HMQ6O7B48LO1:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:16:55.4789375+07:00 0HMQ6O7B48LO1:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__id_0" (0723d8ff)
+2023-04-27T09:16:57.8263992+07:00 0HMQ6O7B48LO2:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:16:57.8397040+07:00 0HMQ6O7B48LO2:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T09:16:58.1432953+07:00 0HMQ6O7B48LO3:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:16:58.1476834+07:00 0HMQ6O7B48LO4:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:16:58.1540698+07:00 0HMQ6O7B48LO3:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESC" (0723d8ff)
+2023-04-27T09:16:58.1710530+07:00 0HMQ6O7B48LO4:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[Id] = @__id_0" (0723d8ff)
+2023-04-27T09:17:04.6163617+07:00 0HMQ6O7B48LO5:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:17:04.6449074+07:00 0HMQ6O7B48LO5:00000002 [INF] Executed DbCommand ("6"ms) [Parameters=["@__request_UserId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__request_UserId_0" (0723d8ff)
+2023-04-27T09:17:06.7056441+07:00 0HMQ6O7B48LO6:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:17:06.7095974+07:00 0HMQ6O7B48LO6:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__request_UserId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__request_UserId_0" (0723d8ff)
+2023-04-27T09:17:07.7799661+07:00 0HMQ6O7B48LO7:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:17:07.7851137+07:00 0HMQ6O7B48LO7:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__request_UserId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__request_UserId_0" (0723d8ff)
+2023-04-27T09:17:07.9690907+07:00 0HMQ6O7B48LO8:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:17:07.9735454+07:00 0HMQ6O7B48LO8:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__request_UserId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__request_UserId_0" (0723d8ff)
+2023-04-27T09:17:08.2981820+07:00 0HMQ6O7B48LO9:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:17:08.3067578+07:00 0HMQ6O7B48LO9:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__request_UserId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__request_UserId_0" (0723d8ff)
+2023-04-27T09:17:08.5566837+07:00 0HMQ6O7B48LOA:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:17:08.5653253+07:00 0HMQ6O7B48LOA:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__request_UserId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__request_UserId_0" (0723d8ff)
+2023-04-27T09:17:09.0985280+07:00 0HMQ6O7B48LO5:00000002 [INF] Executed DbCommand ("21"ms) [Parameters=["@p11='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Tasks] SET [Code] = @p0, [CreatedDate] = @p1, [Description] = @p2, [EndDate] = @p3, [IsAssigned] = @p4, [Name] = @p5, [ProjectId] = @p6, [StartDate] = @p7, [Status] = @p8, [UpdatedDate] = @p9, [UserId] = @p10
+WHERE [Id] = @p11;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2023-04-27T09:17:09.1652020+07:00 0HMQ6O7B48LO6:00000002 [INF] Executed DbCommand ("80"ms) [Parameters=["@p11='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Tasks] SET [Code] = @p0, [CreatedDate] = @p1, [Description] = @p2, [EndDate] = @p3, [IsAssigned] = @p4, [Name] = @p5, [ProjectId] = @p6, [StartDate] = @p7, [Status] = @p8, [UpdatedDate] = @p9, [UserId] = @p10
+WHERE [Id] = @p11;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2023-04-27T09:17:09.3571523+07:00 0HMQ6O7B48LO7:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@p11='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Tasks] SET [Code] = @p0, [CreatedDate] = @p1, [Description] = @p2, [EndDate] = @p3, [IsAssigned] = @p4, [Name] = @p5, [ProjectId] = @p6, [StartDate] = @p7, [Status] = @p8, [UpdatedDate] = @p9, [UserId] = @p10
+WHERE [Id] = @p11;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2023-04-27T09:17:09.5444805+07:00 0HMQ6O7B48LO8:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@p11='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Tasks] SET [Code] = @p0, [CreatedDate] = @p1, [Description] = @p2, [EndDate] = @p3, [IsAssigned] = @p4, [Name] = @p5, [ProjectId] = @p6, [StartDate] = @p7, [Status] = @p8, [UpdatedDate] = @p9, [UserId] = @p10
+WHERE [Id] = @p11;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2023-04-27T09:17:09.5948106+07:00 0HMQ6O7B48LOB:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:17:09.6048452+07:00 0HMQ6O7B48LOB:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__request_UserId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__request_UserId_0" (0723d8ff)
+2023-04-27T09:17:09.6121542+07:00 0HMQ6O7B48LOC:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:17:09.6218834+07:00 0HMQ6O7B48LOC:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__request_UserId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__request_UserId_0" (0723d8ff)
+2023-04-27T09:17:09.7100176+07:00 0HMQ6O7B48LOD:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:17:09.7176652+07:00 0HMQ6O7B48LOD:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__request_UserId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__request_UserId_0" (0723d8ff)
+2023-04-27T09:17:09.8496429+07:00 0HMQ6O7B48LO9:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@p11='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Tasks] SET [Code] = @p0, [CreatedDate] = @p1, [Description] = @p2, [EndDate] = @p3, [IsAssigned] = @p4, [Name] = @p5, [ProjectId] = @p6, [StartDate] = @p7, [Status] = @p8, [UpdatedDate] = @p9, [UserId] = @p10
+WHERE [Id] = @p11;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2023-04-27T09:17:09.9166587+07:00 0HMQ6O7B48LOE:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:17:09.9257936+07:00 0HMQ6O7B48LOE:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__request_UserId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__request_UserId_0" (0723d8ff)
+2023-04-27T09:17:10.1220436+07:00 0HMQ6O7B48LOA:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@p11='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Tasks] SET [Code] = @p0, [CreatedDate] = @p1, [Description] = @p2, [EndDate] = @p3, [IsAssigned] = @p4, [Name] = @p5, [ProjectId] = @p6, [StartDate] = @p7, [Status] = @p8, [UpdatedDate] = @p9, [UserId] = @p10
+WHERE [Id] = @p11;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2023-04-27T09:17:10.8543842+07:00 0HMQ6O7B48LOC:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@p11='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Tasks] SET [Code] = @p0, [CreatedDate] = @p1, [Description] = @p2, [EndDate] = @p3, [IsAssigned] = @p4, [Name] = @p5, [ProjectId] = @p6, [StartDate] = @p7, [Status] = @p8, [UpdatedDate] = @p9, [UserId] = @p10
+WHERE [Id] = @p11;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2023-04-27T09:17:10.8666774+07:00 0HMQ6O7B48LOB:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=["@p11='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Tasks] SET [Code] = @p0, [CreatedDate] = @p1, [Description] = @p2, [EndDate] = @p3, [IsAssigned] = @p4, [Name] = @p5, [ProjectId] = @p6, [StartDate] = @p7, [Status] = @p8, [UpdatedDate] = @p9, [UserId] = @p10
+WHERE [Id] = @p11;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2023-04-27T09:17:10.9919133+07:00 0HMQ6O7B48LOD:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@p11='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Tasks] SET [Code] = @p0, [CreatedDate] = @p1, [Description] = @p2, [EndDate] = @p3, [IsAssigned] = @p4, [Name] = @p5, [ProjectId] = @p6, [StartDate] = @p7, [Status] = @p8, [UpdatedDate] = @p9, [UserId] = @p10
+WHERE [Id] = @p11;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2023-04-27T09:17:11.2068408+07:00 0HMQ6O7B48LOE:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@p11='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Tasks] SET [Code] = @p0, [CreatedDate] = @p1, [Description] = @p2, [EndDate] = @p3, [IsAssigned] = @p4, [Name] = @p5, [ProjectId] = @p6, [StartDate] = @p7, [Status] = @p8, [UpdatedDate] = @p9, [UserId] = @p10
+WHERE [Id] = @p11;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2023-04-27T09:17:18.2489867+07:00 0HMQ6O7B48LOF:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:17:18.2555399+07:00 0HMQ6O7B48LOF:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T09:17:18.2698126+07:00 0HMQ6O7B48LOF:00000002 [INF] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T09:19:33.5111865+07:00 0HMQ6O7B48LOG:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:19:33.5726331+07:00 0HMQ6O7B48LOG:00000002 [INF] Executed DbCommand ("26"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T09:19:35.3278207+07:00 0HMQ6O7B48LOH:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:19:35.3382988+07:00 0HMQ6O7B48LOH:00000002 [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T09:19:35.6165759+07:00 0HMQ6O7B48LOI:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:19:35.6249756+07:00 0HMQ6O7B48LOI:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESC" (0723d8ff)
+2023-04-27T09:30:45.6498670+07:00 0HMQ6O7B48LOJ:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:30:45.8842461+07:00 0HMQ6O7B48LOJ:00000002 [INF] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T09:30:45.9988647+07:00 0HMQ6O7B48LOK:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:30:46.0303178+07:00 0HMQ6O7B48LOK:00000002 [INF] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T09:30:46.0779444+07:00 0HMQ6O7B48LOK:00000002 [INF] Executed DbCommand ("16"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T09:32:01.3654611+07:00 0HMQ6O7B48LOL:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:32:01.3729796+07:00 0HMQ6O7B48LOL:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T09:32:01.3792853+07:00 0HMQ6O7B48LOL:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T09:32:16.2021658+07:00 0HMQ6O7B48LOM:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:32:16.2168081+07:00 0HMQ6O7B48LOM:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T09:32:16.2354902+07:00 0HMQ6O7B48LOM:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T09:38:49.0256983+07:00 0HMQ6O7B48LON:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:38:49.2340742+07:00 0HMQ6O7B48LON:00000002 [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T09:38:58.0688394+07:00 0HMQ6O7B48LOO:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:38:58.0884736+07:00 0HMQ6O7B48LOO:00000002 [INF] Executed DbCommand ("16"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T09:38:58.5107422+07:00 0HMQ6O7B48LOP:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:38:58.5147119+07:00 0HMQ6O7B48LOQ:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:38:58.5236497+07:00 0HMQ6O7B48LOP:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESC" (0723d8ff)
+2023-04-27T09:38:58.5392445+07:00 0HMQ6O7B48LOQ:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[Id] = @__id_0" (0723d8ff)
+2023-04-27T09:39:02.1892104+07:00 0HMQ6O7B48LOR:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T09:39:02.2024144+07:00 0HMQ6O7B48LOR:00000002 [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T10:02:13.5994176+07:00 0HMQ6O7B48LOT:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T10:02:13.6396458+07:00 0HMQ6O7B48LOT:00000002 [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T10:02:13.6468834+07:00 0HMQ6O7B48LOT:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T10:02:13.8549179+07:00 0HMQ6O7B48LOU:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T10:02:13.8635129+07:00 0HMQ6O7B48LOU:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T10:02:13.9749961+07:00 0HMQ6O7B48LOV:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T10:02:13.9989438+07:00 0HMQ6O7B48LOV:00000002 [INF] Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESC" (0723d8ff)
+2023-04-27T11:31:07.7749324+07:00 0HMQ6O7B48LP1:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T11:31:07.7988715+07:00 0HMQ6O7B48LP0:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T11:31:07.8487906+07:00 0HMQ6O7B48LP1:00000002 [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESC" (0723d8ff)
+2023-04-27T11:31:07.9553272+07:00 0HMQ6O7B48LP0:00000002 [INF] Executed DbCommand ("51"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T15:06:22.3613701+07:00 0HMQ6O7B48LP2:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:06:22.3709171+07:00 0HMQ6O7B48LP2:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[UserId] = @__userId_0" (0723d8ff)
+2023-04-27T15:06:24.1545877+07:00 0HMQ6O7B48LP3:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:06:24.1581316+07:00 0HMQ6O7B48LP3:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T15:06:25.4021797+07:00 0HMQ6O7B48LP4:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:06:25.4063845+07:00 0HMQ6O7B48LP4:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T15:06:26.1411088+07:00 0HMQ6O7B48LP5:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:06:26.1452796+07:00 0HMQ6O7B48LP5:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T15:06:26.4444355+07:00 0HMQ6O7B48LP6:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:06:26.4483611+07:00 0HMQ6O7B48LP6:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESC" (0723d8ff)
+2023-04-27T15:06:27.6099402+07:00 0HMQ6O7B48LP7:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:06:27.6158403+07:00 0HMQ6O7B48LP7:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T15:06:27.6240957+07:00 0HMQ6O7B48LP7:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T15:06:31.3437843+07:00 0HMQ6O7B48LP8:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:06:31.3492205+07:00 0HMQ6O7B48LP8:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESC" (0723d8ff)
+2023-04-27T15:06:34.2793165+07:00 0HMQ6O7B48LP9:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:06:34.2829160+07:00 0HMQ6O7B48LP9:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T15:06:34.2858837+07:00 0HMQ6O7B48LP9:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T15:06:35.8089565+07:00 0HMQ6O7B48LPA:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:06:35.8140429+07:00 0HMQ6O7B48LPA:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESC" (0723d8ff)
+2023-04-27T15:07:06.9557424+07:00 0HMQ6O7B48LPB:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:07:06.9584447+07:00 0HMQ6O7B48LPB:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T15:07:08.2124538+07:00 0HMQ6O7B48LPC:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:07:08.2157737+07:00 0HMQ6O7B48LPC:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T15:07:08.5180981+07:00 0HMQ6O7B48LPD:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:07:08.5214389+07:00 0HMQ6O7B48LPD:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESC" (0723d8ff)
+2023-04-27T15:07:09.7129347+07:00 0HMQ6O7B48LPE:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:07:09.7156835+07:00 0HMQ6O7B48LPE:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T15:07:11.9226465+07:00 0HMQ6O7B48LPF:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:07:11.9269500+07:00 0HMQ6O7B48LPF:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[UserId] = @__userId_0" (0723d8ff)
+2023-04-27T15:07:14.5163343+07:00 0HMQ6O7B48LPG:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:07:14.5521041+07:00 0HMQ6O7B48LPG:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T15:07:15.4775257+07:00 0HMQ6O7B48LPH:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:07:15.4801170+07:00 0HMQ6O7B48LPH:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T15:07:15.7752267+07:00 0HMQ6O7B48LPI:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:07:15.7781393+07:00 0HMQ6O7B48LPI:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESC" (0723d8ff)
+2023-04-27T15:07:18.0239580+07:00 0HMQ6O7B48LPJ:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:07:18.0270596+07:00 0HMQ6O7B48LPJ:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T15:58:26.0747942+07:00 0HMQ6O7B48LPM:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:58:26.1470987+07:00 0HMQ6O7B48LPM:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[UserId] = @__userId_0" (0723d8ff)
+2023-04-27T15:58:53.7199098+07:00 0HMQ6O7B48LPN:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:58:53.7358904+07:00 0HMQ6O7B48LPN:00000002 [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T15:59:39.3511709+07:00 0HMQ6O7B48LPO:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:59:39.3667128+07:00 0HMQ6O7B48LPO:00000002 [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T15:59:39.3838555+07:00 0HMQ6O7B48LPO:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T15:59:42.7607742+07:00 0HMQ6O7B48LPP:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T15:59:42.7740548+07:00 0HMQ6O7B48LPP:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T16:00:02.0902363+07:00 0HMQ6O7B48LPQ:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:00:02.1055624+07:00 0HMQ6O7B48LPQ:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[UserId] = @__userId_0" (0723d8ff)
+2023-04-27T16:00:18.9802983+07:00 0HMQ6O7B48LPR:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:00:18.9907360+07:00 0HMQ6O7B48LPR:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T16:00:28.2884791+07:00 0HMQ6O7B48LPS:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:00:28.3097756+07:00 0HMQ6O7B48LPS:00000002 [INF] Executed DbCommand ("13"ms) [Parameters=["@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+WHERE ([u].[UserName] = @__userName_0) AND ([u].[Password] = @__password_1)" (0723d8ff)
+2023-04-27T16:00:30.2341546+07:00 0HMQ6O7B48LPU:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:00:30.2533948+07:00 0HMQ6O7B48LPU:00000002 [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T16:00:40.0789859+07:00 0HMQ6O7B48LPV:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:00:40.0857892+07:00 0HMQ6O7B48LPV:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T16:00:47.3664552+07:00 0HMQ6O7B48LQ0:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:00:47.3730338+07:00 0HMQ6O7B48LQ0:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+WHERE ([u].[UserName] = @__userName_0) AND ([u].[Password] = @__password_1)" (0723d8ff)
+2023-04-27T16:00:48.3047469+07:00 0HMQ6O7B48LQ2:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:00:48.3102283+07:00 0HMQ6O7B48LQ2:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T16:00:57.7116599+07:00 0HMQ6O7B48LQ3:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:00:57.7191834+07:00 0HMQ6O7B48LQ3:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[UserId] = @__userId_0" (0723d8ff)
+2023-04-27T16:01:08.8543688+07:00 0HMQ6O7B48LQ4:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:01:08.8628688+07:00 0HMQ6O7B48LQ4:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T16:03:18.9467915+07:00 0HMQ6O7B48LQ5:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:03:19.1734419+07:00 0HMQ6O7B48LQ5:00000002 [INF] Executed DbCommand ("10"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Projects] ([Code], [CreatedDate], [Description], [EndDate], [Name], [StartDate], [Status])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [Id]
+FROM [Projects]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
+2023-04-27T16:03:19.4960651+07:00 0HMQ6O7B48LQ6:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:03:19.5096581+07:00 0HMQ6O7B48LQ6:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T16:03:22.3428397+07:00 0HMQ6O7B48LQ7:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:03:22.3555088+07:00 0HMQ6O7B48LQ7:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T16:03:34.4188641+07:00 0HMQ6O7B48LQ8:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:03:34.4322631+07:00 0HMQ6O7B48LQ8:00000002 [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T16:03:34.7239392+07:00 0HMQ6O7B48LQ9:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:03:34.7440841+07:00 0HMQ6O7B48LQ9:00000002 [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESC" (0723d8ff)
+2023-04-27T16:03:46.8043805+07:00 0HMQ6O7B48LQA:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:03:46.8203891+07:00 0HMQ6O7B48LQA:00000002 [INF] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T16:03:57.7645503+07:00 0HMQ6O7B48LQB:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:03:57.7812643+07:00 0HMQ6O7B48LQB:00000002 [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T16:03:57.7926305+07:00 0HMQ6O7B48LQB:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T16:04:11.9191664+07:00 0HMQ6O7B48LQC:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:04:11.9302572+07:00 0HMQ6O7B48LQC:00000002 [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESC" (0723d8ff)
+2023-04-27T16:04:24.6990463+07:00 0HMQ6O7B48LQD:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:04:24.7104723+07:00 0HMQ6O7B48LQD:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESC" (0723d8ff)
+2023-04-27T16:04:30.1168651+07:00 0HMQ6O7B48LQE:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:04:30.1281320+07:00 0HMQ6O7B48LQE:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T16:04:45.6490509+07:00 0HMQ6O7B48LQF:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:04:45.6620439+07:00 0HMQ6O7B48LQF:00000002 [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T16:04:45.9557548+07:00 0HMQ6O7B48LQG:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:04:45.9624677+07:00 0HMQ6O7B48LQG:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESC" (0723d8ff)
+2023-04-27T16:07:15.4085691+07:00 0HMQ6O7B48LQH:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:07:15.4204940+07:00 0HMQ6O7B48LQH:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[UserId] = @__userId_0" (0723d8ff)
+2023-04-27T16:07:22.5214178+07:00 0HMQ6O7B48LQI:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:07:22.5348808+07:00 0HMQ6O7B48LQI:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T16:07:22.5526058+07:00 0HMQ6O7B48LQI:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T16:08:44.6161908+07:00 0HMQ6O7B48LQK:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:08:44.6237835+07:00 0HMQ6O7B48LQJ:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:08:44.6440389+07:00 0HMQ6O7B48LQK:00000002 [INF] Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESC" (0723d8ff)
+2023-04-27T16:08:44.6916486+07:00 0HMQ6O7B48LQJ:00000002 [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-27T16:13:34.3007134+07:00 0HMQ6O7B48LQL:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:13:34.5521562+07:00 0HMQ6O7B48LQL:00000002 [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-27T16:13:35.2483646+07:00 0HMQ6O7B48LQM:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-27T16:13:35.2712943+07:00 0HMQ6O7B48LQM:00000002 [INF] Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)

@@ -67,16 +67,16 @@ namespace HGWork.Service
             {
                 if (request != null)
                 {
-                    var project = _context.Projects.FirstOrDefault(x => x.Id == request.Id);
-                    if (project == null)
-                    {
-                        return new ResponseBase<int>
-                        {
-                            StatusCode = 400,
-                            Data = 0,
-                            Message = "Không tìm thấy dữ liệu"
-                        };
-                    }
+                    //var project = _context.Projects.FirstOrDefault(x => x.Id == request.Id);
+                    //if (project == null)
+                    //{
+                    //    return new ResponseBase<int>
+                    //    {
+                    //        StatusCode = 400,
+                    //        Data = 0,
+                    //        Message = "Không tìm thấy dữ liệu"
+                    //    };
+                    //}
 
                     _context.Projects.Update(request);
                     await _context.SaveChangesAsync();
@@ -131,23 +131,33 @@ namespace HGWork.Service
 
         }
 
-        public async Task<ResponseBase<List<Project>>> GetAll()
+        public async Task<ResponseBase<List<ProjectView>>> GetAll()
         {
             try
             {
                 var projects = await _context.Projects.ToListAsync();
 
+                var res = projects.Select(x => new ProjectView()
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Code = x.Code,
+                    Description = x.Description,
+                    Status = x.Status,
+                    StartDate = x.StartDate.ToString("MM/dd/yyyy"),
+                    EndDate = x.EndDate.ToString("MM/dd/yyyy")
+                }).ToList();
 
-                return new ResponseBase<List<Project>>
+                return new ResponseBase<List<ProjectView>>
                 {
                     StatusCode = 200,
-                    Data = projects,
+                    Data = res,
                     Message = "Thành công"
                 };
             }
             catch (Exception ex)
             {
-                return new ResponseBase<List<Project>>
+                return new ResponseBase<List<ProjectView>>
                 {
                     StatusCode = 400,
                     Data = null,
@@ -157,7 +167,7 @@ namespace HGWork.Service
            
         }
 
-        public async Task<ResponseBase<List<Model.Task>>> GetTasks(int id)
+        public async Task<ResponseBase<List<TaskView>>> GetTasks(int id)
         {
             var tasks = new List<Model.Task>();
             if (id > 0)
@@ -169,10 +179,20 @@ namespace HGWork.Service
                 tasks = await _context.Tasks.ToListAsync();
             }
 
-            return new ResponseBase<List<Model.Task>>()
+            var res = tasks.Select(x => new TaskView()
+            {
+                Id = x.Id,
+                Name = x.Name,
+                Code = x.Code,
+                Description = x.Description,
+                StartDate = x.StartDate.ToString("MM/dd/yyyy"),
+                EndDate = x.EndDate.ToString("MM/dd/yyyy")
+            }).ToList();
+
+            return new ResponseBase<List<TaskView>>()
             {
                 StatusCode = 200,
-                Data = tasks,
+                Data = res,
                 Message =  "Thành công"
             };
         }

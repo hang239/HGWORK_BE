@@ -125,5 +125,28 @@ namespace HGWork.Service
                 Message = "Sai tài khoản hoặc mật khẩu"
             };
         }
+
+        public async Task<ResponseBase<List<TaskView>>> GetTaskByUser(int userId, int status)
+        {
+            var tasks = _context.Tasks.Where(x => x.UserId == userId).ToList();
+
+            if (status > 0)
+            {
+                tasks = tasks.Where(x => x.Status == status).ToList();
+            }
+
+            var res = tasks.Select(x => new TaskView()
+            {
+                Id = x.Id,
+                Name = x.Name,
+                Code = x.Code,
+                Description = x.Description,
+                StartDate = x.StartDate.ToString("MM/dd/yyyy"),
+                EndDate = x.EndDate.ToString("MM/dd/yyyy"),
+                Status = x.Status
+            }).ToList();
+
+            return new ResponseBase<List<TaskView>> { StatusCode = 200, Data = res, Message = "Filter success" };
+        }
     }
 }

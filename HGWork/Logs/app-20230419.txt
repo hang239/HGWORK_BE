@@ -1,0 +1,758 @@
+2023-04-19T00:04:03.9417197+07:00 0HMQ050LMT15S:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:04:03.9756408+07:00 0HMQ050LMT15S:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:04:04.0352541+07:00 0HMQ050LMT15S:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:04:06.3149606+07:00 0HMQ050LMT15T:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:04:06.3445944+07:00 0HMQ050LMT15T:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:04:06.3480521+07:00 0HMQ050LMT15T:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:04:07.2430404+07:00 0HMQ050LMT15U:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:04:07.2680368+07:00 0HMQ050LMT15U:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:04:07.2707588+07:00 0HMQ050LMT15U:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:04:07.5265860+07:00 0HMQ050LMT15V:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:04:07.5942173+07:00 0HMQ050LMT15V:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:04:07.6191015+07:00 0HMQ050LMT15V:00000002 [INF] Executed DbCommand ("17"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:04:07.7371429+07:00 0HMQ050LMT160:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:04:07.7627851+07:00 0HMQ050LMT160:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:04:07.7657636+07:00 0HMQ050LMT160:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:04:37.3266931+07:00 0HMQ050LMT161:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:04:37.3486898+07:00 0HMQ050LMT161:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:04:37.3522178+07:00 0HMQ050LMT161:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:05:54.5663233+07:00 0HMQ050LMT162:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:05:54.5865943+07:00 0HMQ050LMT162:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:05:54.5900440+07:00 0HMQ050LMT162:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:07:18.1986914+07:00 0HMQ050LMT163:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:07:18.2544868+07:00 0HMQ050LMT163:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:07:18.3023379+07:00 0HMQ050LMT163:00000002 [INF] Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:08:25.2054628+07:00 0HMQ050LMT164:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:08:25.2480358+07:00 0HMQ050LMT164:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:08:25.2520599+07:00 0HMQ050LMT164:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:08:38.8937136+07:00 0HMQ050LMT165:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:08:38.9158834+07:00 0HMQ050LMT165:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:08:38.9185285+07:00 0HMQ050LMT165:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:08:41.0125868+07:00 0HMQ050LMT166:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:08:41.0327412+07:00 0HMQ050LMT166:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:08:45.0597149+07:00 0HMQ050LMT166:00000002 [INF] Executed DbCommand ("4,025"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-19T00:09:01.3339829+07:00 0HMQ050LMT167:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:09:01.3587090+07:00 0HMQ050LMT167:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:09:01.3737181+07:00 0HMQ050LMT167:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__id_0" (0723d8ff)
+2023-04-19T00:09:01.9828422+07:00 0HMQ050LMT168:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:09:02.0168135+07:00 0HMQ050LMT168:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:09:02.0203459+07:00 0HMQ050LMT168:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__id_0" (0723d8ff)
+2023-04-19T00:09:12.0405199+07:00 0HMQ050LMT169:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:09:12.0636520+07:00 0HMQ050LMT169:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:09:12.0668074+07:00 0HMQ050LMT169:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:09:14.0920849+07:00 0HMQ050LMT16A:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:09:14.1153140+07:00 0HMQ050LMT16A:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:09:14.1179521+07:00 0HMQ050LMT16A:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__id_0" (0723d8ff)
+2023-04-19T00:09:19.1108463+07:00 0HMQ050LMT16B:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:09:19.1322093+07:00 0HMQ050LMT16B:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:09:19.1348396+07:00 0HMQ050LMT16B:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:09:20.8929031+07:00 0HMQ050LMT16C:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:09:20.9160734+07:00 0HMQ050LMT16C:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:09:20.9188708+07:00 0HMQ050LMT16C:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__id_0" (0723d8ff)
+2023-04-19T00:09:23.1607855+07:00 0HMQ050LMT16D:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:09:23.1799183+07:00 0HMQ050LMT16D:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:09:23.1827575+07:00 0HMQ050LMT16D:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:09:24.1625108+07:00 0HMQ050LMT16E:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:09:24.1827330+07:00 0HMQ050LMT16E:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:09:24.1858180+07:00 0HMQ050LMT16E:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__id_0" (0723d8ff)
+2023-04-19T00:09:26.9053918+07:00 0HMQ050LMT16F:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:09:26.9294902+07:00 0HMQ050LMT16F:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:09:26.9329889+07:00 0HMQ050LMT16F:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:09:28.3815815+07:00 0HMQ050LMT16G:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:09:28.4050489+07:00 0HMQ050LMT16G:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:09:28.4091259+07:00 0HMQ050LMT16G:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__id_0" (0723d8ff)
+2023-04-19T00:09:31.5877250+07:00 0HMQ050LMT16H:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:09:31.6133228+07:00 0HMQ050LMT16H:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:09:31.6160508+07:00 0HMQ050LMT16H:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:09:38.5828349+07:00 0HMQ050LMT16I:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:09:38.6086924+07:00 0HMQ050LMT16I:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:09:38.6110937+07:00 0HMQ050LMT16I:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-19T00:09:43.2042765+07:00 0HMQ050LMT16J:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:09:43.2245835+07:00 0HMQ050LMT16J:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:09:43.2278540+07:00 0HMQ050LMT16J:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:09:44.2720293+07:00 0HMQ050LMT16K:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:09:44.2969824+07:00 0HMQ050LMT16K:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:09:44.2995684+07:00 0HMQ050LMT16K:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__id_0" (0723d8ff)
+2023-04-19T00:09:46.5800242+07:00 0HMQ050LMT16L:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:09:46.6001773+07:00 0HMQ050LMT16L:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:09:46.6035499+07:00 0HMQ050LMT16L:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:09:54.5752029+07:00 0HMQ050LMT16M:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:09:54.5958331+07:00 0HMQ050LMT16M:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:09:54.6012475+07:00 0HMQ050LMT16M:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESC" (0723d8ff)
+2023-04-19T00:09:57.5662000+07:00 0HMQ050LMT16N:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:09:57.5904088+07:00 0HMQ050LMT16N:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:09:57.5944136+07:00 0HMQ050LMT16N:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:09:58.8148580+07:00 0HMQ050LMT16O:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:09:58.8410450+07:00 0HMQ050LMT16O:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:09:58.8443761+07:00 0HMQ050LMT16O:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__id_0" (0723d8ff)
+2023-04-19T00:10:01.3174878+07:00 0HMQ050LMT16P:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:10:01.3421245+07:00 0HMQ050LMT16P:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:10:01.3446264+07:00 0HMQ050LMT16P:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:10:01.5815345+07:00 0HMQ050LMT16Q:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:10:01.6053151+07:00 0HMQ050LMT16Q:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:10:01.6086927+07:00 0HMQ050LMT16Q:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESC" (0723d8ff)
+2023-04-19T00:10:02.6420868+07:00 0HMQ050LMT16R:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:10:02.6645944+07:00 0HMQ050LMT16R:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:10:02.6670340+07:00 0HMQ050LMT16R:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:10:04.1314060+07:00 0HMQ050LMT16S:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:10:04.1532077+07:00 0HMQ050LMT16S:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:10:04.1557116+07:00 0HMQ050LMT16S:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__id_0" (0723d8ff)
+2023-04-19T00:10:06.1569144+07:00 0HMQ050LMT16T:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:10:06.1870623+07:00 0HMQ050LMT16T:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:10:06.1923458+07:00 0HMQ050LMT16T:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:10:07.6569928+07:00 0HMQ050LMT16U:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:10:07.6853553+07:00 0HMQ050LMT16U:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:10:07.6903880+07:00 0HMQ050LMT16U:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__id_0" (0723d8ff)
+2023-04-19T00:10:11.8201393+07:00 0HMQ050LMT16V:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:10:11.8491436+07:00 0HMQ050LMT16V:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:10:11.8527603+07:00 0HMQ050LMT16V:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:16:35.8961888+07:00 0HMQ050LMT170:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:16:35.9180812+07:00 0HMQ050LMT170:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:16:35.9537390+07:00 0HMQ050LMT170:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:16:37.9721703+07:00 0HMQ050LMT171:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:16:37.9744891+07:00 0HMQ050LMT172:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:16:38.0372447+07:00 0HMQ050LMT171:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:16:38.0387595+07:00 0HMQ050LMT172:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:16:38.0408078+07:00 0HMQ050LMT171:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:16:38.0654714+07:00 0HMQ050LMT172:00000002 [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[CreatedDate], [u].[Email], [u].[IsAdmin], [u].[Name], [u].[Password], [u].[Phone], [u].[Status], [u].[UserName]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESC" (0723d8ff)
+2023-04-19T00:16:52.4274358+07:00 0HMQ050LMT173:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:16:52.4599983+07:00 0HMQ050LMT173:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:16:52.4696988+07:00 0HMQ050LMT173:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-04-19T00:19:19.1185288+07:00 0HMQ050LMT174:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:19:19.1414393+07:00 0HMQ050LMT174:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:19:19.1638874+07:00 0HMQ050LMT174:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-04-19T00:20:19.7302980+07:00 0HMQ050LMT175:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:20:19.7538516+07:00 0HMQ050LMT175:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:20:19.7573664+07:00 0HMQ050LMT175:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-04-19T00:21:25.6222462+07:00  [INF] Now listening on: "https://localhost:7288" (d826f4b8)
+2023-04-19T00:21:25.6279716+07:00  [INF] Now listening on: "http://localhost:5288" (d826f4b8)
+2023-04-19T00:21:25.6419209+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-19T00:21:25.6437541+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-19T00:21:25.6470910+07:00  [INF] Content root path: "E:\HGWork\BE\HGWork\HGWork" (b5d60022)
+2023-04-19T00:21:34.2273678+07:00 0HMQ065BE4MU5:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:21:39.6234695+07:00 0HMQ065BE4MU5:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:21:40.5042173+07:00 0HMQ065BE4MU5:00000002 [INF] Executed DbCommand ("73"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-04-19T00:23:55.0296634+07:00 0HMQ065BE4MU6:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:23:55.1167551+07:00 0HMQ065BE4MU6:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:23:55.1586757+07:00 0HMQ065BE4MU6:00000002 [INF] Executed DbCommand ("12"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-04-19T00:25:51.3385204+07:00 0HMQ065BE4MU7:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:25:51.4022915+07:00 0HMQ065BE4MU7:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:25:51.4061200+07:00 0HMQ065BE4MU7:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-04-19T00:27:02.0705574+07:00 0HMQ065BE4MU8:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:27:02.0990269+07:00 0HMQ065BE4MU8:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:27:02.1053418+07:00 0HMQ065BE4MU8:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-04-19T00:31:31.2908599+07:00 0HMQ065BE4MU9:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:31:31.3111997+07:00 0HMQ065BE4MU9:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:31:31.3444472+07:00 0HMQ065BE4MU9:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-04-19T00:45:05.9601512+07:00 0HMQ065BE4MUA:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:45:05.9900088+07:00 0HMQ065BE4MUA:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:45:06.0354149+07:00 0HMQ065BE4MUA:00000002 [INF] Executed DbCommand ("7"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-04-19T00:46:17.8700926+07:00 0HMQ065BE4MUB:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:46:17.9004394+07:00 0HMQ065BE4MUB:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:46:17.9159392+07:00 0HMQ065BE4MUB:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:46:21.4249743+07:00 0HMQ065BE4MUC:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:46:21.4643438+07:00 0HMQ065BE4MUC:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:46:21.4700369+07:00 0HMQ065BE4MUC:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:47:27.9088209+07:00 0HMQ065BE4MUD:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:47:27.9465157+07:00 0HMQ065BE4MUD:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:47:27.9639259+07:00 0HMQ065BE4MUD:00000002 [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:48:23.4575498+07:00 0HMQ065BE4MUE:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:48:23.5307650+07:00 0HMQ065BE4MUE:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:48:23.5604896+07:00 0HMQ065BE4MUE:00000002 [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:49:24.8337912+07:00 0HMQ065BE4MUF:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:49:24.8784192+07:00 0HMQ065BE4MUF:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:49:24.8943295+07:00 0HMQ065BE4MUF:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:57:33.5517474+07:00 0HMQ065BE4MUG:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:57:33.5831485+07:00 0HMQ065BE4MUG:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:57:33.6995681+07:00 0HMQ065BE4MUG:00000002 [INF] Executed DbCommand ("20"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:57:38.7839342+07:00 0HMQ065BE4MUH:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:57:38.8124089+07:00 0HMQ065BE4MUH:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:57:38.8163271+07:00 0HMQ065BE4MUH:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:58:48.0928804+07:00 0HMQ065BE4MUI:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:58:48.1499955+07:00 0HMQ065BE4MUI:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:58:48.1898273+07:00 0HMQ065BE4MUI:00000002 [INF] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:58:58.6576604+07:00 0HMQ065BE4MUJ:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:58:58.6831529+07:00 0HMQ065BE4MUJ:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:58:58.6872379+07:00 0HMQ065BE4MUJ:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T00:58:59.8563307+07:00 0HMQ065BE4MUK:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:58:59.8837660+07:00 0HMQ065BE4MUK:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:58:59.8941592+07:00 0HMQ065BE4MUK:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__id_0" (0723d8ff)
+2023-04-19T00:59:02.9277489+07:00 0HMQ065BE4MUL:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T00:59:02.9492914+07:00 0HMQ065BE4MUL:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T00:59:02.9521044+07:00 0HMQ065BE4MUL:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T01:00:34.7634534+07:00 0HMQ065BE4MUM:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T01:00:34.7918409+07:00 0HMQ065BE4MUM:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T01:00:34.9926505+07:00 0HMQ065BE4MUM:00000002 [INF] Executed DbCommand ("199"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T01:00:38.4059563+07:00 0HMQ065BE4MUN:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T01:00:38.4315593+07:00 0HMQ065BE4MUN:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T01:00:38.4378053+07:00 0HMQ065BE4MUN:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-04-19T01:00:50.3069725+07:00 0HMQ065BE4MUO:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T01:00:50.3265588+07:00 0HMQ065BE4MUO:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T01:00:50.3293912+07:00 0HMQ065BE4MUO:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-04-19T01:00:53.1366203+07:00 0HMQ065BE4MUP:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T01:00:53.1615415+07:00 0HMQ065BE4MUP:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T01:00:53.1652352+07:00 0HMQ065BE4MUP:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T01:00:54.7383914+07:00 0HMQ065BE4MUQ:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T01:00:54.7692506+07:00 0HMQ065BE4MUQ:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T01:00:54.7723457+07:00 0HMQ065BE4MUQ:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-04-19T01:00:56.6913042+07:00 0HMQ065BE4MUR:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T01:00:56.7264855+07:00 0HMQ065BE4MUR:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T01:00:56.7301415+07:00 0HMQ065BE4MUR:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-19T01:00:58.3180423+07:00 0HMQ065BE4MUS:00000002 [WRN] Error unprotecting the session cookie. (65f95c31)
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-04-19T01:00:58.3392824+07:00 0HMQ065BE4MUS:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-19T01:00:58.3421449+07:00 0HMQ065BE4MUS:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)

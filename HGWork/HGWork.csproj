@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EmailWorker\EmailWorker.csproj" />
     <ProjectReference Include="..\HGWork.Model\HGWork.Model.csproj" />
     <ProjectReference Include="..\HGWork.Module\HGWork.Module.csproj" />
     <ProjectReference Include="..\HGWork.Service\HGWork.Service.csproj" />

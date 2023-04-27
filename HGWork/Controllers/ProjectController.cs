@@ -18,21 +18,21 @@ namespace HGWork.Controllers
         }
 
         [HttpGet("getall")]
-        public async Task<ResponseBase<List<Project>>> Get()
+        public async Task<ResponseBase<List<ProjectView>>> Get()
         {
             var res = await _projectService.GetAll();
             return res;
         }
 
         [HttpGet("detail/{id}")]
-        public async Task<ResponseBase<Project>> Detail([FromQuery] int id)
+        public async Task<ResponseBase<Project>> Detail(int id)
         {
             var res = await _projectService.GetById(id);
             return res;
         }
 
         [HttpGet("gettasks/{id}")]
-        public async Task<ResponseBase<List<Model.Task>>> GetTasks(int id)
+        public async Task<ResponseBase<List<TaskView>>> GetTasks(int id)
         {
             var res = await _projectService.GetTasks(id);
             return res;
