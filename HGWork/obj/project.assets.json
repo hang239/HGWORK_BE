@@ -5018,11 +5018,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork\\HGWork.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork\\HGWork.csproj",
       "projectName": "HGWork",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork\\HGWork.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork\\HGWork.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5039,17 +5039,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\EmailWorker\\EmailWorker.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\EmailWorker\\EmailWorker.csproj"
+            "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\EmailWorker\\EmailWorker.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\EmailWorker\\EmailWorker.csproj"
             },
-            "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.Model\\HGWork.Model.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.Model\\HGWork.Model.csproj"
+            "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork.Model\\HGWork.Model.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork.Model\\HGWork.Model.csproj"
             },
-            "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.Module\\HGWork.Module.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.Module\\HGWork.Module.csproj"
+            "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork.Module\\HGWork.Module.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork.Module\\HGWork.Module.csproj"
             },
-            "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.Service\\HGWork.Service.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork.Service\\HGWork.Service.csproj"
+            "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork.Service\\HGWork.Service.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork.Service\\HGWork.Service.csproj"
             }
           }
         }

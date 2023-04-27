@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dCp78DTnvufnJwqO650hqjP2lLX779S8Xu24jSRTLdsm8GIHD50akYtIhWtPS2sjTm71yhOz16x9tja9ISZgWw==",
+  "dgSpecHash": "mBFOHar0U/GG6tzC7Cyclou9gzo2B/leo/zUtdjC5ZLih/+WDpthEkwpA7DBezRsn4vBc8NOSEwui0E1mx+X2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\EmailWorker\\EmailWorker.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\EmailWorker\\EmailWorker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\bouncycastle.cryptography\\2.1.1\\bouncycastle.cryptography.2.1.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XtUcIpZ5INBwoyvggYESRvZv0xBnVBz5JpQdIwjJz+hq+CE3br4/ACtUdd8gkj+SQOqU+P4Fjfp6ML4Q0Pc+Yg==",
+  "dgSpecHash": "Ymu/D1xJlt/BSBAuTBcf18OSe6YNX1yZGtqrPr0MweathGptQyjEdBUQuTLX/HWSZnRkamjuiXPgCz086DSfPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Hang\\HGWork\\BE\\HGWork\\HGWork\\HGWork.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork\\HGWork.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\bouncycastle.cryptography\\2.1.1\\bouncycastle.cryptography.2.1.1.nupkg.sha512",
