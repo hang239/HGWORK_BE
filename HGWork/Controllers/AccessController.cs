@@ -18,10 +18,9 @@ namespace HGWork.Controllers
 
 
         [HttpPost("login")]
-        public async Task<ResponseBase<bool>> Login([FromBody] LoginDto request)
+        public async Task<ResponseBase<User>> Login([FromBody] LoginDto request)
         {
             return await _userService.Login(request.Username, request.Password);
         }
-       
     }
 }

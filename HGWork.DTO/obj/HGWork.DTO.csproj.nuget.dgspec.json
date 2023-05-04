@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork.DTO\\HGWork.DTO.csproj": {}
+    "C:\\Users\\LENOVO\\Desktop\\V1\\HGWork_done\\BE\\HGWork\\HGWork.DTO\\HGWork.DTO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork.DTO\\HGWork.DTO.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\V1\\HGWork_done\\BE\\HGWork\\HGWork.DTO\\HGWork.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork.DTO\\HGWork.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\V1\\HGWork_done\\BE\\HGWork\\HGWork.DTO\\HGWork.DTO.csproj",
         "projectName": "HGWork.DTO",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork.DTO\\HGWork.DTO.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\V1\\HGWork_done\\BE\\HGWork\\HGWork.DTO\\HGWork.DTO.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork.DTO\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\V1\\HGWork_done\\BE\\HGWork\\HGWork.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -12,59 +12,31 @@ E:\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\refint\HGWork.Model.dll
 E:\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.pdb
 E:\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.genruntimeconfig.cache
 E:\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\ref\HGWork.Model.dll
-C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.deps.json
-C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.runtimeconfig.json
-C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.dll
-C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.pdb
-C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.csproj.AssemblyReference.cache
-C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.AssemblyInfoInputs.cache
-C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.AssemblyInfo.cs
-C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.csproj.CoreCompileInputs.cache
-C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.dll
-C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\refint\HGWork.Model.dll
-C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.pdb
-C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.genruntimeconfig.cache
-C:\Users\Admin\OneDrive\Máy tính\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\ref\HGWork.Model.dll
-C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.deps.json
-C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.runtimeconfig.json
-C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.dll
-C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.pdb
-C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.csproj.AssemblyReference.cache
-C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.AssemblyInfoInputs.cache
-C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.AssemblyInfo.cs
-C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.csproj.CoreCompileInputs.cache
-C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.dll
-C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\refint\HGWork.Model.dll
-C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.pdb
-C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.genruntimeconfig.cache
-C:\Users\LENOVO\Desktop\LMHung\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\ref\HGWork.Model.dll
-C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.deps.json
-C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.runtimeconfig.json
-C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.dll
-C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.pdb
-C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.csproj.AssemblyReference.cache
-C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.AssemblyInfoInputs.cache
-C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.AssemblyInfo.cs
-C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.csproj.CoreCompileInputs.cache
-C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.dll
-C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\refint\HGWork.Model.dll
-C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.pdb
-C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.genruntimeconfig.cache
-C:\Users\LENOVO\Desktop\hang\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\ref\HGWork.Model.dll
-C:\Users\LENOVO\Desktop\HGWORK\HGWORK_BE\HGWork.Model\bin\Debug\net6.0\HGWork.Model.deps.json
-C:\Users\LENOVO\Desktop\HGWORK\HGWORK_BE\HGWork.Model\bin\Debug\net6.0\HGWork.Model.runtimeconfig.json
-C:\Users\LENOVO\Desktop\HGWORK\HGWORK_BE\HGWork.Model\bin\Debug\net6.0\HGWork.Model.dll
-C:\Users\LENOVO\Desktop\HGWORK\HGWORK_BE\HGWork.Model\bin\Debug\net6.0\HGWork.Model.pdb
-C:\Users\LENOVO\Desktop\HGWORK\HGWORK_BE\HGWork.Model\obj\Debug\net6.0\HGWork.Model.csproj.AssemblyReference.cache
-C:\Users\LENOVO\Desktop\HGWORK\HGWORK_BE\HGWork.Model\obj\Debug\net6.0\HGWork.Model.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\LENOVO\Desktop\HGWORK\HGWORK_BE\HGWork.Model\obj\Debug\net6.0\HGWork.Model.AssemblyInfoInputs.cache
-C:\Users\LENOVO\Desktop\HGWORK\HGWORK_BE\HGWork.Model\obj\Debug\net6.0\HGWork.Model.AssemblyInfo.cs
-C:\Users\LENOVO\Desktop\HGWORK\HGWORK_BE\HGWork.Model\obj\Debug\net6.0\HGWork.Model.csproj.CoreCompileInputs.cache
-C:\Users\LENOVO\Desktop\HGWORK\HGWORK_BE\HGWork.Model\obj\Debug\net6.0\HGWork.Model.dll
-C:\Users\LENOVO\Desktop\HGWORK\HGWORK_BE\HGWork.Model\obj\Debug\net6.0\refint\HGWork.Model.dll
-C:\Users\LENOVO\Desktop\HGWORK\HGWORK_BE\HGWork.Model\obj\Debug\net6.0\HGWork.Model.pdb
-C:\Users\LENOVO\Desktop\HGWORK\HGWORK_BE\HGWork.Model\obj\Debug\net6.0\HGWork.Model.genruntimeconfig.cache
-C:\Users\LENOVO\Desktop\HGWORK\HGWORK_BE\HGWork.Model\obj\Debug\net6.0\ref\HGWork.Model.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.deps.json
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.runtimeconfig.json
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.pdb
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\refint\HGWork.Model.dll
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.pdb
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.genruntimeconfig.cache
+C:\Users\LENOVO\Desktop\V1\HGWork\BE\HGWork\HGWork.Model\obj\Debug\net6.0\ref\HGWork.Model.dll
+C:\Users\LENOVO\Desktop\V1\HGWork_done\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.deps.json
+C:\Users\LENOVO\Desktop\V1\HGWork_done\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.runtimeconfig.json
+C:\Users\LENOVO\Desktop\V1\HGWork_done\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.dll
+C:\Users\LENOVO\Desktop\V1\HGWork_done\BE\HGWork\HGWork.Model\bin\Debug\net6.0\HGWork.Model.pdb
+C:\Users\LENOVO\Desktop\V1\HGWork_done\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\V1\HGWork_done\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\V1\HGWork_done\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\V1\HGWork_done\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\V1\HGWork_done\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\V1\HGWork_done\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.dll
+C:\Users\LENOVO\Desktop\V1\HGWork_done\BE\HGWork\HGWork.Model\obj\Debug\net6.0\refint\HGWork.Model.dll
+C:\Users\LENOVO\Desktop\V1\HGWork_done\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.pdb
+C:\Users\LENOVO\Desktop\V1\HGWork_done\BE\HGWork\HGWork.Model\obj\Debug\net6.0\HGWork.Model.genruntimeconfig.cache
+C:\Users\LENOVO\Desktop\V1\HGWork_done\BE\HGWork\HGWork.Model\obj\Debug\net6.0\ref\HGWork.Model.dll

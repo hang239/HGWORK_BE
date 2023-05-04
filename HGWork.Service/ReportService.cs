@@ -33,11 +33,40 @@ namespace HGWork.Service
                 TotalProjects = projects.Count,
                 TotalTasks = tasks.Count,
                 TotalTasksDoing = tasks.Where(x => x.Status == (int)TaskStatusEnum.Doing).Count(),
+                TotalTasksPending = tasks.Where(x => x.Status == (int)TaskStatusEnum.Pending).Count(),
                 TotalTasksCanceled = tasks.Where(x => x.Status == (int)TaskStatusEnum.Canceled).Count(),
                 TotalTasksDone = tasks.Where(x => x.Status == (int)TaskStatusEnum.Done).Count(),
+                DataTotalProjects = this.DataProject(),
+                DataTotalTasks = this.DataTask()
             };
             
             return new ResponseBase<ReportResultDto> { Data = report, StatusCode = 200, Message = "Success" };
         } 
+
+        private int[] DataProject()
+        {
+            var data = new List<int>();
+            var project = _context.Projects.ToList();
+
+            for (int i = 1; i <= 12; i++)
+            {
+                var count = project.Count(x => x.StartDate.Month == i);
+                data.Add(count);
+            }
+            return data.ToArray();
+        }
+
+        private int[] DataTask()
+        {
+            var data = new List<int>();
+            var tasks = _context.Tasks.ToList();
+
+            for (int i = 1; i <= 12; i++)
+            {
+                var count = tasks.Count(x => x.StartDate.Month == i);
+                data.Add(count);
+            }
+            return data.ToArray();
+        }
     }
 }

@@ -1983,11 +1983,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork.Module\\HGWork.Module.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\V1\\HGWork_done\\BE\\HGWork\\HGWork.Module\\HGWork.Module.csproj",
       "projectName": "HGWork.Module",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork.Module\\HGWork.Module.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\V1\\HGWork_done\\BE\\HGWork\\HGWork.Module\\HGWork.Module.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork.Module\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\Desktop\\V1\\HGWork_done\\BE\\HGWork\\HGWork.Module\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2004,11 +2004,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork.DTO\\HGWork.DTO.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork.DTO\\HGWork.DTO.csproj"
+            "C:\\Users\\LENOVO\\Desktop\\V1\\HGWork_done\\BE\\HGWork\\HGWork.DTO\\HGWork.DTO.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Desktop\\V1\\HGWork_done\\BE\\HGWork\\HGWork.DTO\\HGWork.DTO.csproj"
             },
-            "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork.Model\\HGWork.Model.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork.Model\\HGWork.Model.csproj"
+            "C:\\Users\\LENOVO\\Desktop\\V1\\HGWork_done\\BE\\HGWork\\HGWork.Model\\HGWork.Model.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Desktop\\V1\\HGWork_done\\BE\\HGWork\\HGWork.Model\\HGWork.Model.csproj"
             }
           }
         }

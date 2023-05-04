@@ -10,5 +10,6 @@ namespace HGWork.Service.Interfaces
         Task<ResponseBase<int>> Create(ProjectDto project);
         Task<ResponseBase<int>> Update(Project request);
         Task<ResponseBase<List<TaskView>>> GetTasks(int id);
+        Task<ResponseBase<List<ProjectView>>> Filter(string filter);
     }
 }

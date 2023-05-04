@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yaDKH0hlhesIG9XGTLdN5Hn7U4PDE4eTPAN7uMzoPqAeIBfP4kmWD0kXmpKUH1UvilRY3Pzamytmdxf1wJx4ug==",
+  "dgSpecHash": "XtKxR6Oel+pMbxPc/zwGr7AZ87jLzQAfvaGUIz2s3/qDi0bQqHJ349YNDfx5zpFrjbuRfdY2XDEcfMvCS13kfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork.Model\\HGWork.Model.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\V1\\HGWork_done\\BE\\HGWork\\HGWork.Model\\HGWork.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

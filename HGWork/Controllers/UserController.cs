@@ -23,6 +23,12 @@ namespace HGWork.Controllers
             return await _userService.GetAll();
         }
 
+        [HttpGet("filter/{name}")]
+        public async Task<ResponseBase<List<User>>> Filter(string name)
+        {
+            return await _userService.Filter(name);
+        }
+
         [HttpGet("getuser/{id}")]
         public async Task<ResponseBase<User>> GetUser(int id)
         {
@@ -40,6 +46,18 @@ namespace HGWork.Controllers
         public async Task<ResponseBase<int>> Create([FromBody] User user)
         {
             return await _userService.Create(user);
+        }
+
+        [HttpPost("update")]
+        public async Task<ResponseBase<int>> Update([FromBody] User user)
+        {
+            return await _userService.Update(user);
+        }
+
+        [HttpGet("delete")]
+        public async Task<ResponseBase<int>> Delete(int id)
+        {
+            return await _userService.Delete(id);
         }
     }
 }

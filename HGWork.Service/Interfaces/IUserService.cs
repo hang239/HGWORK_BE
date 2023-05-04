@@ -14,7 +14,9 @@ namespace HGWork.Service.Interfaces
         Task<ResponseBase<List<User>>> GetAll();
         Task<ResponseBase<int>> Create(User user);
         Task<ResponseBase<int>> Update(User request);
-        Task<ResponseBase<bool>> Login(string userName, string password);
+        Task<ResponseBase<User>> Login(string userName, string password);
         Task<ResponseBase<List<TaskView>>> GetTaskByUser(int userId, int status);
+        Task<ResponseBase<int>> Delete(int userId);
+        Task<ResponseBase<List<User>>> Filter(string filter);
     }
 }

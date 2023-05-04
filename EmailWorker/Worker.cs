@@ -12,7 +12,7 @@ namespace EmailWorker
         private readonly IUserService _userService;
         private readonly IEmailService _emailService;
 
-        public Worker(ILogger<Worker> logger,ITaskService taskService, IUserService userService, IEmailService emailService)
+        public Worker(ILogger<Worker> logger, ITaskService taskService, IUserService userService, IEmailService emailService)
         {
             _logger = logger;
             _taskService = taskService;
@@ -27,16 +27,16 @@ namespace EmailWorker
                 var tasks = await _taskService.GetTaskEndDate();
                 var userIDs = tasks.Select(task => task.UserId).ToList();
                 var resUsers = await _userService.GetAll();
-                
-                if(resUsers.StatusCode == 200)
+
+                if (resUsers.StatusCode == 200)
                 {
                     var users = resUsers.Data;
-                    if(users != null && users.Count > 0)
+                    if (users != null && users.Count > 0)
                     {
                         var usersReceiveEmails = users.Where(user => userIDs.Contains(user.Id)).ToList();
-                        if(usersReceiveEmails != null && usersReceiveEmails.Count > 0)
+                        if (usersReceiveEmails != null && usersReceiveEmails.Count > 0)
                         {
-                            foreach(var user in usersReceiveEmails)
+                            foreach (var user in usersReceiveEmails)
                             {
                                 var taskForUser = tasks.Where(task => task.UserId == user.Id).Select(task => task.Name).ToList();
                                 string contentEmail = string.Format(@"
@@ -44,9 +44,10 @@ namespace EmailWorker
                                 <p>Hệ thống thông báo HGWork<p>
                                 <p>Các task sắp đến hạn: <b>{0}</b></p>
                                 <p>Chúng tôi gửi thông báo này tới bạn để thông báo cho bạn các công việc sắp hết hạn.</p>
-                                ", string.Join(",",taskForUser));
+                                ", string.Join(",", taskForUser));
 
-                                var email = new Email() { 
+                                var email = new Email()
+                                {
                                     From = "",
                                     To = user.Email,
                                     EmailContent = contentEmail,

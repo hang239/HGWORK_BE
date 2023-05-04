@@ -39,6 +39,22 @@ namespace HGWork.Service
             };
         }
 
+        public async Task<ResponseBase<List<User>>> Filter(string filter)
+        {
+            var res = await _context.Users.OrderByDescending(x => x.Id).ToListAsync();
+
+            if (!string.IsNullOrEmpty(filter))
+            {
+                res = res.Where(x => x.Name.Contains(filter)).ToList();
+            }
+            return new ResponseBase<List<User>>()
+            {
+                Data = res,
+                StatusCode = 200,
+                Message = "Success"
+            };
+        }
+
         public async Task<ResponseBase<int>> Create(User user)
         {
             if (user != null)
@@ -67,17 +83,6 @@ namespace HGWork.Service
             {
                 if (request != null)
                 {
-                    var project = _context.Users.FirstOrDefault(x => x.Id == request.Id);
-                    if (project == null)
-                    {
-                        return new ResponseBase<int>
-                        {
-                            StatusCode = 400,
-                            Data = 0,
-                            Message = "Không tìm thấy dữ liệu"
-                        };
-                    }
-
                     _context.Users.Update(request);
                     await _context.SaveChangesAsync();
                     return new ResponseBase<int>
@@ -105,22 +110,47 @@ namespace HGWork.Service
             }
         }
 
-        public async Task<ResponseBase<bool>> Login(string userName, string password)
+        public async Task<ResponseBase<int>> Delete(int userId)
+        {
+            try
+            {
+                var user = await _context.Users.FirstOrDefaultAsync(x => x.Id == userId);
+                _context.Users.Remove(user);
+                await _context.SaveChangesAsync();
+                return new ResponseBase<int>
+                {
+                    StatusCode = 200,
+                    Data = 1,
+                    Message = "Thành công"
+                };
+            }
+            catch (Exception ex)
+            {
+                return new ResponseBase<int>
+                {
+                    StatusCode = 400,
+                    Data = 0,
+                    Message = ex.Message
+                };
+            }
+        }
+
+        public async Task<ResponseBase<User>> Login(string userName, string password)
         {
             var user = await _context.Users.FirstOrDefaultAsync(x => x.UserName.Equals(userName) && x.Password.Equals(password));
             if (user != null && user.Id > 0)
             {
-                return new ResponseBase<bool>()
+                return new ResponseBase<User>()
                 {
-                    Data = user.IsAdmin,
+                    Data = user,
                     StatusCode = 200,
                     Message = "Success"
                 };
             }
 
-            return new ResponseBase<bool>()
+            return new ResponseBase<User>()
             {
-                Data = false,
+                Data = new User(),
                 StatusCode = 500,
                 Message = "Sai tài khoản hoặc mật khẩu"
             };

@@ -4,8 +4,8 @@ using HGWork.Model;
 using HGWork.Service.Interfaces;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
-using HGWork.Helper.Email;
 using HGWork.Helper.Enums;
+using System.Globalization;
 
 namespace HGWork.Service
 {
@@ -52,7 +52,7 @@ namespace HGWork.Service
                     {
                         status = TaskStatusEnum.Canceled.ToString();
                     }
-                    this.SendMail(request.Name, status, "http://localhost:8080/#/updatetask/" + request.Id.ToString(), request.StartDate.ToString("MM/dd/yyyy"), request.EndDate.ToString("MM/dd/yyyy"), user.Email);
+                    this.SendMail(request.Name, status, "http://localhost:8080/#/updatetask/" + request.Id.ToString(), request.StartDate.ToString("dd/M/yyyy", CultureInfo.InvariantCulture), request.EndDate.ToString("dd/M/yyyy", CultureInfo.InvariantCulture), user.Email);
 
                     return new ResponseBase<int>
                     {
@@ -104,7 +104,7 @@ namespace HGWork.Service
                     {
                         status = TaskStatusEnum.Canceled.ToString();
                     }
-                    this.SendMail(request.Name, status, "http://localhost:8080/#/updatetask/" + request.Id.ToString(), request.StartDate.ToString("MM/dd/yyyy"), request.EndDate.ToString("MM/dd/yyyy"), user.Email);
+                    this.SendMail(request.Name, status, "http://localhost:8080/#/updatetask/" + request.Id.ToString(), request.StartDate.ToString("dd/M/yyyy", CultureInfo.InvariantCulture), request.EndDate.ToString("dd/M/yyyy", CultureInfo.InvariantCulture), user.Email);
 
                     _context.Tasks.Update(request);
                     await _context.SaveChangesAsync();
@@ -193,6 +193,44 @@ namespace HGWork.Service
 
         }
 
+        public async Task<ResponseBase<List<TaskView>>> Filter(string filter)
+        {
+            try
+            {
+                var tasks = await _context.Tasks.ToListAsync();
+                if (!string.IsNullOrEmpty(filter))
+                {
+                    tasks = tasks.Where(x => x.Name.Contains(filter) || x.Code.Contains(filter)).ToList();
+                }
+                var res = tasks.Select(x => new TaskView()
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Code = x.Code,
+                    Description = x.Description,
+                    StartDate = x.StartDate.ToString("MM/dd/yyyy"),
+                    EndDate = x.EndDate.ToString("MM/dd/yyyy")
+                }).ToList();
+
+                return new ResponseBase<List<TaskView>>
+                {
+                    StatusCode = 200,
+                    Data = res,
+                    Message = "Thành công"
+                };
+            }
+            catch (Exception ex)
+            {
+                return new ResponseBase<List<TaskView>>
+                {
+                    StatusCode = 400,
+                    Data = null,
+                    Message = ex.Message
+                };
+            }
+
+        }
+
         public async Task<ResponseBase<List<TaskView>>> FilterTasks(FilterTaskDto filter)
         {
             var tasks = new List<Model.Task>();
@@ -226,23 +264,22 @@ namespace HGWork.Service
             return new ResponseBase<List<TaskView>> { StatusCode = 200, Data = res, Message = "Filter success"};
         }
 
-        public void SendMail(string name, string status, string startDate, string endDate, string link, string mailTo)
+        public void SendMail(string name, string status, string link, string startDate, string endDate, string mailTo)
         {
-            string contentEmail = string.Format(@"
-            <p>Thông báo cập nhật công việc từ HGWork</p>
-            <p>Hệ thống thông báo HGWork<p>
-            <p>Thông tin task:</p>
-                <ul>
-                    <li> Task: <b>{0}</b></li>
-                    <li> Link: <b>{1}</b></li>
-                    <li> Ngày bắt đầu: <b>{2}</b></li>
-                    <li> Ngày kết thúc: <b>{3}</b></li>
-                    <li> Trạng thái: <b>{4}</b></li>
-                    <li> Ngày cập nhật: <b>{5}</b></li>
-                </ul>
-            <p>Chúng tôi gửi thông báo này tới bạn để xác nhận các thông tin.</p>
-            <p>Cảm ơn bạn đã tin dùng hệ thống của chúng tôi!</p>
-            ", name, link, startDate, endDate, status, DateTime.Now);
+            string contentEmail = $""+
+            "<p>Thông báo cập nhật công việc từ HGWork</p>"+
+            "<p>Hệ thống thông báo HGWork<p>"+
+            "<p>Thông tin task:</p>"+
+                "<ul>"+
+                    $"<li> Task: <b>{name}</b></li>"+
+                    $"<li> Link: <b>{link}</b></li>"+
+                    $"<li> Ngày bắt đầu: <b>{startDate}</b></li>"+
+                    $"<li> Ngày kết thúc: <b>{endDate}</b></li>"+
+                    $"<li> Trạng thái: <b>{ status}</b></li>"+
+                    $"<li> Ngày cập nhật: <b>{DateTime.Now.ToString("dd/M/yyyy", CultureInfo.InvariantCulture)}</b></li>"+
+                "</ul>"+
+            "<p>Chúng tôi gửi thông báo này tới bạn để xác nhận các thông tin.</p>"+
+            "<p>Cảm ơn bạn đã tin dùng hệ thống của chúng tôi!</p>";
 
             var email = new Email()
             {
@@ -251,10 +288,9 @@ namespace HGWork.Service
                 Subject = "Thông báo cập nhật công việc",
                 To = mailTo
             };
-            
+
             _ = _emailService.SendMail(email);
         }
-
         public async Task<List<Model.Task>> GetTaskEndDate()
         {
             var tasks = new List<Model.Task>();

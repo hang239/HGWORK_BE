@@ -167,6 +167,46 @@ namespace HGWork.Service
            
         }
 
+        public async Task<ResponseBase<List<ProjectView>>> Filter(string filter)
+        {
+            try
+            {
+                var projects = await _context.Projects.ToListAsync();
+                if (!string.IsNullOrEmpty(filter))
+                {
+                    projects = projects.Where(x => x.Name.ToLower().Contains(filter.ToLower()) || x.Code.ToLower().Contains(filter.ToLower())).ToList();
+                }
+
+                var res = projects.Select(x => new ProjectView()
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Code = x.Code,
+                    Description = x.Description,
+                    Status = x.Status,
+                    StartDate = x.StartDate.ToString("MM/dd/yyyy"),
+                    EndDate = x.EndDate.ToString("MM/dd/yyyy")
+                }).ToList();
+
+                return new ResponseBase<List<ProjectView>>
+                {
+                    StatusCode = 200,
+                    Data = res,
+                    Message = "Thành công"
+                };
+            }
+            catch (Exception ex)
+            {
+                return new ResponseBase<List<ProjectView>>
+                {
+                    StatusCode = 400,
+                    Data = null,
+                    Message = ex.Message
+                };
+            }
+
+        }
+
         public async Task<ResponseBase<List<TaskView>>> GetTasks(int id)
         {
             var tasks = new List<Model.Task>();

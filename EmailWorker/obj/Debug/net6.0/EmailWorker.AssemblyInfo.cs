@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("dotnet-EmailWorker-cf949e62-e3c2-4b24-9b47-123872377662")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("dotnet-EmailWorker-2993B678-3C27-4F1D-8805-897AA12FB030")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmailWorker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

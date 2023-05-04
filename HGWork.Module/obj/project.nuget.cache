@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4ZaQ8/Z5NbomX8js95aaa3G1z971jJBRb32Q5FfLEKlXfHxXTelgFETaR+H+cmjC+PDz2iLJEBxKFMjkPjzwRQ==",
+  "dgSpecHash": "gzvXI3NQA9rBshfvVcCIsgufmnXMPq2SReGVHXS7Ec3tXBb5b28L+qPIh2NLXjeUjTjZVShXheCBSLyb14Gp7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\HGWORK\\HGWORK_BE\\HGWork.Module\\HGWork.Module.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\V1\\HGWork_done\\BE\\HGWork\\HGWork.Module\\HGWork.Module.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

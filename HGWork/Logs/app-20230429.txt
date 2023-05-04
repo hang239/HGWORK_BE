@@ -1,0 +1,17 @@
+2023-04-29T16:13:10.4676036+07:00  [INF] Now listening on: "https://localhost:7288" (d826f4b8)
+2023-04-29T16:13:10.4823677+07:00  [INF] Now listening on: "http://localhost:5288" (d826f4b8)
+2023-04-29T16:13:10.5145918+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-29T16:13:10.5171622+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-29T16:13:10.5205271+07:00  [INF] Content root path: "C:\Users\LENOVO\Desktop\HGWORK\HGWORK_BE\HGWork" (b5d60022)
+2023-04-29T16:14:16.2267696+07:00 0HMQ8I7Q0D9BG:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-29T16:14:20.1190468+07:00 0HMQ8I7Q0D9BG:00000002 [INF] Executed DbCommand ("233"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Code], [p].[CreatedDate], [p].[Description], [p].[EndDate], [p].[Name], [p].[StartDate], [p].[Status]
+FROM [Projects] AS [p]" (0723d8ff)
+2023-04-29T16:14:20.5047971+07:00 0HMQ8I7Q0D9BG:00000002 [INF] Executed DbCommand ("18"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]" (0723d8ff)
+2023-04-29T16:15:11.8855161+07:00 0HMQ8I7Q0D9BH:00000002 [INF] Entity Framework Core "6.0.9" initialized '"HGWorkDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.9"' with options: "None" (d2805559)
+2023-04-29T16:15:13.2265711+07:00 0HMQ8I7Q0D9BH:00000002 [INF] Executed DbCommand ("124"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Code], [t].[CreatedDate], [t].[Description], [t].[EndDate], [t].[IsAssigned], [t].[Name], [t].[ProjectId], [t].[StartDate], [t].[Status], [t].[UpdatedDate], [t].[UserId]
+FROM [Tasks] AS [t]
+WHERE [t].[UserId] = @__userId_0" (0723d8ff)

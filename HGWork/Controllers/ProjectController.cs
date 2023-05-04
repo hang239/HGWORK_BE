@@ -24,6 +24,13 @@ namespace HGWork.Controllers
             return res;
         }
 
+        [HttpGet("filter/{name}")]
+        public async Task<ResponseBase<List<ProjectView>>> Filter(string name)
+        {
+            var res = await _projectService.Filter(name);
+            return res;
+        }
+
         [HttpGet("detail/{id}")]
         public async Task<ResponseBase<Project>> Detail(int id)
         {
