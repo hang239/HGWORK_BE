@@ -3,6 +3,7 @@ using HGWork.Model;
 using HGWork.Service.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using System.Globalization;
 
 namespace HGWork.Service
 {
@@ -10,10 +11,12 @@ namespace HGWork.Service
     {
         private readonly HGWorkDbContext _context;
         private readonly ILogger _logger;
-        public UserService(HGWorkDbContext context, ILogger<UserService> logger)
+        private readonly IEmailService _emailService;
+        public UserService(HGWorkDbContext context, ILogger<UserService> logger, IEmailService emailService)
         {
             _context = context;
             _logger = logger;
+            _emailService = emailService;
         }
 
         public async Task<ResponseBase<User>> GetUserById(int id)
@@ -177,6 +180,40 @@ namespace HGWork.Service
             }).ToList();
 
             return new ResponseBase<List<TaskView>> { StatusCode = 200, Data = res, Message = "Filter success" };
+        }
+
+        public async Task<ResponseBase<int>> ForgotPassword(string username , string email)
+        {
+            var user = _context.Users.FirstOrDefault(x => x.UserName.Equals(username) && x.Email.Equals(email));
+            if (user != null && user.Id > 0)
+            {
+                // send mail
+                this.SendMailForgot(user.UserName, user.Password, email);
+                return new ResponseBase<int> { StatusCode = 200, Data = 0, Message = "Forgot Password success" };
+            }
+            return new ResponseBase<int> { StatusCode = 400, Data = 0, Message = "User not exist" };
+        }
+
+        public void SendMailForgot(string username, string password, string mailTo)
+        {
+            string contentEmail = $"" +
+            "<p>Email xác nhận tài khoản:</p>" +
+                "<ul>" +
+                    $"<li> Tài khoản: <b>{username}</b></li>" +
+                    $"<li> Mật khẩu: <b>{password}</b></li>" +
+                "</ul>" +
+            "<p>Chúng tôi gửi thông báo này tới bạn để xác nhận các thông tin.</p>" +
+            "<p>Cảm ơn bạn đã tin dùng hệ thống của chúng tôi!</p>";
+
+            var email = new Email()
+            {
+                From = "",
+                EmailContent = contentEmail,
+                Subject = "Thông báo xác nhận tài khoản",
+                To = mailTo
+            };
+
+            _ = _emailService.SendMail(email);
         }
     }
 }

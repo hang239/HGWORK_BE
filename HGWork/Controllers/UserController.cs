@@ -59,5 +59,11 @@ namespace HGWork.Controllers
         {
             return await _userService.Delete(id);
         }
+
+        [HttpPost("forgot")]
+        public async Task<ResponseBase<int>> ForgotPassword([FromBody] ForgotPasswordDto request)
+        {
+            return await _userService.ForgotPassword(request.UserName, request.Email);
+        }
     }
 }

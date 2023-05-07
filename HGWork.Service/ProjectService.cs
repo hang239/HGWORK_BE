@@ -144,6 +144,7 @@ namespace HGWork.Service
                     Code = x.Code,
                     Description = x.Description,
                     Status = x.Status,
+                    Priority = x.Priority,
                     StartDate = x.StartDate.ToString("MM/dd/yyyy"),
                     EndDate = x.EndDate.ToString("MM/dd/yyyy")
                 }).ToList();

@@ -18,5 +18,6 @@ namespace HGWork.Service.Interfaces
         Task<ResponseBase<List<TaskView>>> GetTaskByUser(int userId, int status);
         Task<ResponseBase<int>> Delete(int userId);
         Task<ResponseBase<List<User>>> Filter(string filter);
+        Task<ResponseBase<int>> ForgotPassword(string username, string email);
     }
 }
